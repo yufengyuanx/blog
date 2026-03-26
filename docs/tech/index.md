@@ -16,7 +16,19 @@ title: 技术笔记
 
 ## 📝 最近更新
 
-<!-- 文章列表会自动生成 -->
+### 🆕 100 个 Skills 系列
+
+- **[第 1 期：Skill Vetter - 安全审查必备工具](./100-skills-01-skill-vetter)** ⭐ 热门  
+  介绍 ClawHub 下载量 Top 4 的安全审查工具，帮你避免安装恶意 skill  
+  *2026-03-27 发布*
+
+---
+
+### 📚 技术分类
+
+- [Java 心得](./java-notes)
+- [Python 技巧](./python-tips)
+- [AI/LLM 探索](./ai-llm)
 
 ---
 

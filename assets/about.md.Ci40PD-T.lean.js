@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as i,ag as r}from"./chunks/framework.CvgP6Fyv.js";const d=JSON.parse('{"title":"关于我","description":"","frontmatter":{"title":"关于我"},"headers":[],"relativePath":"about.md","filePath":"about.md"}'),e={name:"about.md"};function o(n,l,s,u,h,p){return t(),i("div",null,[...l[0]||(l[0]=[r("",13)])])}const g=a(e,[["render",o]]);export{d as __pageData,g as default};

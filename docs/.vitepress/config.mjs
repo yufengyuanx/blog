@@ -1,0 +1,56 @@
+import { defineConfig } from 'vitepress'
+
+export default defineConfig({
+  lang: 'zh-CN',
+  title: "Frank's Blog",
+  description: "技术学习笔记与生活记录",
+  
+  themeConfig: {
+    // 顶部导航
+    nav: [
+      { text: '首页', link: '/' },
+      { text: '技术笔记', link: '/tech/' },
+      { text: '生活随笔', link: '/life/' },
+      { text: '关于我', link: '/about' },
+    ],
+
+    // 侧边栏
+    sidebar: {
+      '/tech/': [
+        {
+          text: '技术笔记',
+          items: [
+            { text: 'Java 心得', link: '/tech/java-notes' },
+            { text: 'Python 技巧', link: '/tech/python-tips' },
+            { text: 'AI/LLM 探索', link: '/tech/ai-llm' },
+          ],
+        },
+      ],
+      '/life/': [
+        {
+          text: '生活随笔',
+          items: [
+            { text: '读书感悟', link: '/life/reading' },
+            { text: '日常记录', link: '/life/daily' },
+          ],
+        },
+      ],
+    },
+
+    // 社交链接
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/yufengyuanx' },
+    ],
+
+    // 页脚
+    footer: {
+      message: 'Built with VitePress',
+      copyright: 'Copyright © 2026 Frank Yuan',
+    },
+
+    // 搜索
+    search: {
+      provider: 'local',
+    },
+  },
+})

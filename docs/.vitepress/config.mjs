@@ -4,6 +4,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: "Frank's Blog",
   description: "技术学习笔记与生活记录",
+  base: '/blog/',
   
   themeConfig: {
     // 顶部导航

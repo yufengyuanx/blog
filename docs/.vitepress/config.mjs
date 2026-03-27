@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
-export default defineConfig({
+export default withMermaid(defineConfig({
   lang: 'zh-CN',
   title: "Frank's Blog",
   description: "技术学习笔记与生活记录",
@@ -64,4 +65,14 @@ export default defineConfig({
       provider: 'local',
     },
   },
-})
+  
+  // Mermaid 配置
+  mermaid: {
+    theme: {
+      light: 'default',
+      dark: 'dark'
+    },
+    securityLevel: 'loose',
+    startOnLoad: true
+  },
+}))

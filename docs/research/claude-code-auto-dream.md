@@ -17,10 +17,10 @@
 功能设计灵感来自**人脑的 REM 睡眠**（快速眼动睡眠）：
 
 ```mermaid
-%%{init: {'theme': 'default', 'themeVariables': { 'fontSize': '16px', 'nodeBorder': '#2c3e50', 'clusterBkg': '#f8f9fa' }}}%%
+%%{init: {'theme': 'default', 'themeVariables': { 'fontSize': '14px', 'nodeBorder': '#2c3e50', 'clusterBkg': '#f8f9fa', 'nodeTextMargin': 4, 'clusterBorder': '#999' }, 'flowchart': { 'curve': 'basis', 'padding': 20 }}}%%
 graph LR
     subgraph 人脑
-        A1[白天学习] --> A2[夜间 REM 睡眠]
+        A1[白天学习] --> A2[REM 睡眠]
         A2 --> A3[巩固记忆]
         A2 --> A4[遗忘细节]
     end
@@ -53,12 +53,12 @@ graph LR
 随着使用次数增加，AI 智能体的记忆文件会面临以下问题：
 
 ```mermaid
-%%{init: {'theme': 'default', 'themeVariables': { 'fontSize': '16px', 'nodeBorder': '#2c3e50', 'clusterBkg': '#f8f9fa' }}}%%
+%%{init: {'theme': 'default', 'themeVariables': { 'fontSize': '14px', 'nodeBorder': '#2c3e50', 'clusterBkg': '#f8f9fa', 'nodeTextMargin': 4 }, 'flowchart': { 'curve': 'basis', 'padding': 20 }}}%%
 graph TB
-    Start[开始使用] --> S1[会话 1-10\n记忆正常增长]
-    S1 --> S2[会话 11-30\n重复信息出现]
-    S2 --> S3[会话 31-50\n记忆文件膨胀]
-    S3 --> Problem[问题爆发\n1000+ 行\n检索慢\n上下文浪费]
+    Start[开始使用] --> S1[会话 1-10\n记忆增长]
+    S1 --> S2[会话 11-30\n重复出现]
+    S2 --> S3[会话 31-50\n文件膨胀]
+    S3 --> Problem[问题爆发\n检索慢\n浪费上下文]
     
     style Problem fill:#ff6b6b,color:#fff,stroke:#333,stroke-width:2px
 ```
@@ -116,19 +116,19 @@ graph TB
 ### 3.2 完整执行流程图
 
 ```mermaid
-%%{init: {'theme': 'default', 'themeVariables': { 'fontSize': '16px', 'nodeBorder': '#2c3e50', 'clusterBkg': '#f8f9fa' }}}%%
+%%{init: {'theme': 'default', 'themeVariables': { 'fontSize': '14px', 'nodeBorder': '#2c3e50', 'clusterBkg': '#f8f9fa', 'nodeTextMargin': 4 }, 'flowchart': { 'curve': 'basis', 'padding': 20 }}}%%
 graph TD
     Start[Auto-Dream 启动] --> Step1[1. 加载记忆文件]
-    Step1 --> Step2[2. 语义分析 & 去重]
+    Step1 --> Step2[2. 语义分析去重]
     Step2 --> Step3[3. 移除过时内容]
     Step3 --> Step4[4. 日期标准化]
-    Step4 --> Step5[5. 结构重组 & 合并]
-    Step5 --> Step6[6. 行数控制 ≤200 行]
+    Step4 --> Step5[5. 结构重组合并]
+    Step5 --> Step6[6. 行数控制]
     Step6 --> Step7[7. 保存结果]
     Step7 --> End[完成]
     
-    Step1 -.->|MEMORY.md\nmemory/*.md| Step1
-    Step6 -.->|超出归档 | Archive[memory/archive/]
+    Step1 -.->|MEMORY.md 等 | Step1
+    Step6 -.->|超出归档 | Archive[归档]
     
     style Start fill:#4ecdc4,color:#fff,stroke:#333,stroke-width:2px
     style End fill:#4ecdc4,color:#fff,stroke:#333,stroke-width:2px
@@ -138,21 +138,21 @@ graph TD
 ### 3.3 各阶段详细说明
 
 ```mermaid
-%%{init: {'theme': 'default', 'themeVariables': { 'fontSize': '16px', 'nodeBorder': '#2c3e50', 'clusterBkg': '#f8f9fa' }}}%%
+%%{init: {'theme': 'default', 'themeVariables': { 'fontSize': '14px', 'nodeBorder': '#2c3e50', 'clusterBkg': '#f8f9fa', 'nodeTextMargin': 4 }, 'flowchart': { 'curve': 'basis', 'padding': 20 }}}%%
 graph LR
     subgraph 输入
-        I1[原始记忆\n350 行]
+        I1[原始记忆 350 行]
     end
     
     subgraph 处理
-        P1[去重\n-87 行] --> P2[删除过时\n-120 行]
-        P2 --> P3[合并主题\n-68 行]
-        P3 --> P4[日期标准化\n0 行变化]
-        P4 --> P5[行数控制\n-30 行]
+        P1[去重 -87 行] --> P2[删除过时 -120 行]
+        P2 --> P3[合并主题 -68 行]
+        P3 --> P4[日期标准化]
+        P4 --> P5[行数控制 -30 行]
     end
     
     subgraph 输出
-        O1[最终记忆\n45 行]
+        O1[最终记忆 45 行]
     end
     
     I1 --> P1
@@ -224,7 +224,7 @@ async function autoDream() {
 ### 4.1 整理前 vs 整理后
 
 ```mermaid
-%%{init: {'theme': 'default', 'themeVariables': { 'fontSize': '16px', 'nodeBorder': '#2c3e50', 'clusterBkg': '#f8f9fa' }}}%%
+%%{init: {'theme': 'default', 'themeVariables': { 'fontSize': '14px', 'nodeBorder': '#2c3e50', 'clusterBkg': '#f8f9fa', 'nodeTextMargin': 4 }, 'flowchart': { 'curve': 'basis', 'padding': 20 }}}%%
 graph LR
     subgraph 整理前
         A1[350 行]
@@ -237,7 +237,7 @@ graph LR
         B1[45 行\n↓87%]
         B2[0 条重复]
         B3[0 处相对日期]
-        B4[4 个清晰分类]
+        B4[4 个分类]
     end
     
     A1 --> B1
@@ -346,11 +346,11 @@ graph LR
 Auto-Dream 使用**向量相似度**检测重复：
 
 ```mermaid
-%%{init: {'theme': 'default', 'themeVariables': { 'fontSize': '16px', 'nodeBorder': '#2c3e50', 'clusterBkg': '#f8f9fa' }}}%%
+%%{init: {'theme': 'default', 'themeVariables': { 'fontSize': '14px', 'nodeBorder': '#2c3e50', 'clusterBkg': '#f8f9fa', 'nodeTextMargin': 4 }, 'flowchart': { 'curve': 'basis', 'padding': 20 }}}%%
 graph LR
-    A[记忆条目] --> B[Embedding\n向量化]
-    B --> C[相似度矩阵\n余弦相似度]
-    C --> D[聚类分析\n阈值 0.85]
+    A[记忆条目] --> B[Embedding 向量化]
+    B --> C[相似度矩阵]
+    C --> D[聚类分析]
     D --> E[保留最佳表述]
     
     style A fill:#ffe66d,stroke:#333,stroke-width:2px
@@ -463,9 +463,9 @@ function enforceLineLimit(memory, { maxLines, archiveExcess }) {
 Auto-Dream 默认**自动启用**，无需手动配置：
 
 ```mermaid
-%%{init: {'theme': 'default', 'themeVariables': { 'fontSize': '16px', 'nodeBorder': '#2c3e50', 'clusterBkg': '#f8f9fa' }}}%%
+%%{init: {'theme': 'default', 'themeVariables': { 'fontSize': '14px', 'nodeBorder': '#2c3e50', 'clusterBkg': '#f8f9fa', 'nodeTextMargin': 4 }, 'flowchart': { 'curve': 'basis', 'padding': 20 }}}%%
 graph LR
-    A[会话数 ≥ 5] --> B[等待 24 小时]
+    A[会话数≥5] --> B[等待 24 小时]
     B --> C[凌晨自动运行]
     C --> D[用户无感知]
     
@@ -525,18 +525,18 @@ graph LR
 ### 7.1 记忆分层模型
 
 ```mermaid
-%%{init: {'theme': 'default', 'themeVariables': { 'fontSize': '16px', 'nodeBorder': '#2c3e50', 'clusterBkg': '#f8f9fa' }}}%%
+%%{init: {'theme': 'default', 'themeVariables': { 'fontSize': '14px', 'nodeBorder': '#2c3e50', 'clusterBkg': '#f8f9fa', 'nodeTextMargin': 4 }, 'flowchart': { 'curve': 'basis', 'padding': 20 }}}%%
 graph TB
     subgraph 长期记忆
-        LM[MEMORY.md\n精选、巩固、持久化\n≤200 行]
+        LM[MEMORY.md\n精选持久化\n≤200 行]
     end
     
     subgraph 短期记忆
-        SM[memory/YYYY-MM-DD.md\n原始、详细、按天记录\n无限制]
+        SM[每日笔记\n原始详细\n无限制]
     end
     
     subgraph 归档
-        AR[memory/archive/\n被删除的旧内容\n可追溯]
+        AR[归档\n被删除内容\n可追溯]
     end
     
     SM -->|Auto-Dream 巩固 | LM
@@ -571,11 +571,11 @@ graph TB
 ### 8.1 当前限制
 
 ```mermaid
-%%{init: {'theme': 'default', 'themeVariables': { 'fontSize': '16px', 'nodeBorder': '#2c3e50', 'clusterBkg': '#f8f9fa' }}}%%
+%%{init: {'theme': 'default', 'themeVariables': { 'fontSize': '14px', 'nodeBorder': '#2c3e50', 'clusterBkg': '#f8f9fa', 'nodeTextMargin': 4 }, 'flowchart': { 'curve': 'basis', 'padding': 20 }}}%%
 graph LR
-    L1[语言支持\n英文优化] --> L2[中文待改进]
-    L3[上下文理解\n可能误删] --> L4[需人工审查]
-    L5[归档检索\n手动查找] --> L6[缺少搜索]
+    L1[语言支持] --> L2[中文待改进]
+    L3[上下文理解] --> L4[需人工审查]
+    L5[归档检索] --> L6[缺少搜索]
     
     style L1 fill:#ff6b6b,color:#fff,stroke:#333,stroke-width:2px
     style L3 fill:#ff6b6b,color:#fff,stroke:#333,stroke-width:2px
@@ -599,15 +599,15 @@ graph LR
 ### 9.1 可能的改进
 
 ```mermaid
-%%{init: {'theme': 'default', 'themeVariables': { 'fontSize': '16px', 'nodeBorder': '#2c3e50', 'clusterBkg': '#f8f9fa' }}}%%
+%%{init: {'theme': 'default', 'themeVariables': { 'fontSize': '14px', 'nodeBorder': '#2c3e50', 'clusterBkg': '#f8f9fa', 'nodeTextMargin': 4 }, 'flowchart': { 'curve': 'basis', 'padding': 20 }}}%%
 mindmap
   root((未来改进))
     智能评分
-      模型评估重要性
-      优先保留高价值
+      评估重要性
+      保留高价值
     用户反馈
-      恢复删除内容
-      学习用户偏好
+      恢复删除
+      学习偏好
     项目隔离
       分开整理
       避免混淆
@@ -659,12 +659,12 @@ Auto-Dream 解决了 AI 智能体长期记忆的三大挑战：
 ### 10.3 关键指标
 
 ```mermaid
-%%{init: {'theme': 'default', 'themeVariables': { 'fontSize': '16px', 'nodeBorder': '#2c3e50', 'clusterBkg': '#f8f9fa' }}}%%
+%%{init: {'theme': 'default', 'themeVariables': { 'fontSize': '14px', 'nodeBorder': '#2c3e50', 'clusterBkg': '#f8f9fa', 'nodeTextMargin': 4 }, 'flowchart': { 'curve': 'basis', 'padding': 20 }}}%%
 graph LR
-    A[压缩率\n60-80%] 
-    B[运行频率\n24 小时]
-    C[触发阈值\n5+ 会话]
-    D[行数限制\n200 行]
+    A[压缩率 60-80%] 
+    B[运行频率 24 小时]
+    C[触发阈值 5+ 会话]
+    D[行数限制 200 行]
     
     style A fill:#4ecdc4,color:#fff,stroke:#333,stroke-width:2px
     style B fill:#4ecdc4,color:#fff,stroke:#333,stroke-width:2px

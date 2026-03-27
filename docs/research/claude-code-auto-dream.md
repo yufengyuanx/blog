@@ -12,9 +12,29 @@
 
 > Auto-Dream 是一个**后台子智能体**，定期在后台运行，自动审查、整理、优化 Claude Code 积累的记忆文件，将短期记忆转化为长期记忆。
 
-### 灵感来源
+### 灵感来源：人脑 REM 睡眠
 
 功能设计灵感来自**人脑的 REM 睡眠**（快速眼动睡眠）：
+
+```mermaid
+graph LR
+    subgraph 人脑
+        A1[白天学习] --> A2[夜间 REM 睡眠]
+        A2 --> A3[巩固记忆]
+        A2 --> A4[遗忘细节]
+    end
+    
+    subgraph AI
+        B1[会话积累] --> B2[Auto-Dream]
+        B2 --> B3[保留洞察]
+        B2 --> B4[删除冗余]
+    end
+    
+    A1 -.类比.-> B1
+    A2 -.类比.-> B2
+    A3 -.类比.-> B3
+    A4 -.类比.-> B4
+```
 
 | 人脑睡眠 | AI Auto-Dream |
 |---------|--------------|
@@ -31,9 +51,20 @@
 
 随着使用次数增加，AI 智能体的记忆文件会面临以下问题：
 
+```mermaid
+graph TB
+    Start[开始使用] --> S1[会话 1-10<br/>记忆正常增长]
+    S1 --> S2[会话 11-30<br/>重复信息出现]
+    S2 --> S3[会话 31-50<br/>记忆文件膨胀]
+    S3 --> Problem[问题爆发<br/>1000+ 行<br/>检索慢<br/>上下文浪费]
+    
+    style Problem fill:#ff6b6b,color:#fff
 ```
-会话 1: "用户喜欢简洁的代码"
-会话 5: "用户说偏好简洁风格"
+
+**典型场景：**
+```
+会话 1:  "用户喜欢简洁的代码"
+会话 5:  "用户说偏好简洁风格"
 会话 12: "用户提到不喜欢冗长的代码"
 会话 20: "用户说代码要简洁"
 ...
@@ -80,63 +111,54 @@
 | **自动触发** | 会话数 ≥ 5 | 每 24 小时 |
 | **手动触发** | 用户输入 `/dream` | 随时 |
 
-### 3.2 执行流程
+### 3.2 完整执行流程图
 
-```
-┌─────────────────────────────────────────────────────┐
-│              Auto-Dream 子智能体                      │
-│              (后台运行，用户无感知)                    │
-└─────────────────────────────────────────────────────┘
-                          │
-                          ▼
-        ┌─────────────────────────────────┐
-        │  1. 加载所有记忆文件              │
-        │     - MEMORY.md                 │
-        │     - memory/*.md               │
-        └─────────────────────────────────┘
-                          │
-                          ▼
-        ┌─────────────────────────────────┐
-        │  2. 语义分析 & 去重               │
-        │     - 识别重复/相似条目           │
-        │     - 合并冗余信息               │
-        └─────────────────────────────────┘
-                          │
-                          ▼
-        ┌─────────────────────────────────┐
-        │  3. 移除过时内容                 │
-        │     - 检测时间敏感信息           │
-        │     - 标记或删除过期内容         │
-        └─────────────────────────────────┘
-                          │
-                          ▼
-        ┌─────────────────────────────────┐
-        │  4. 日期标准化                   │
-        │     - "3 天前" → "2026-03-24"    │
-        │     - "上周" → "2026-03-17"      │
-        └─────────────────────────────────┘
-                          │
-                          ▼
-        ┌─────────────────────────────────┐
-        │  5. 结构重组 & 合并               │
-        │     - 按主题分类                 │
-        │     - 合并相关洞察               │
-        └─────────────────────────────────┘
-                          │
-                          ▼
-        ┌─────────────────────────────────┐
-        │  6. 行数控制                     │
-        │     - 保持 MEMORY.md ≤ 200 行    │
-        │     - 超出内容归档               │
-        └─────────────────────────────────┘
-                          │
-                          ▼
-        ┌─────────────────────────────────┐
-        │  7. 保存巩固后的记忆文件          │
-        └─────────────────────────────────┘
+```mermaid
+flowchart TD
+    Start[Auto-Dream 启动] --> Step1[1. 加载记忆文件]
+    Step1 --> Step2[2. 语义分析 & 去重]
+    Step2 --> Step3[3. 移除过时内容]
+    Step3 --> Step4[4. 日期标准化]
+    Step4 --> Step5[5. 结构重组 & 合并]
+    Step5 --> Step6[6. 行数控制 ≤200 行]
+    Step6 --> Step7[7. 保存结果]
+    Step7 --> End[完成]
+    
+    Step1 -.MEMORY.md<br/>memory/*.md.-> Step1
+    Step6 -.超出归档.-> Archive[memory/archive/]
+    
+    style Start fill:#4ecdc4,color:#fff
+    style End fill:#4ecdc4,color:#fff
+    style Archive fill:#ffe66d
 ```
 
-### 3.3 技术实现（伪代码）
+### 3.3 各阶段详细说明
+
+```mermaid
+graph LR
+    subgraph 输入
+        I1[原始记忆<br/>350 行]
+    end
+    
+    subgraph 处理
+        P1[去重<br/>-87 行] --> P2[删除过时<br/>-120 行]
+        P2 --> P3[合并主题<br/>-68 行]
+        P3 --> P4[日期标准化<br/>0 行变化]
+        P4 --> P5[行数控制<br/>-30 行]
+    end
+    
+    subgraph 输出
+        O1[最终记忆<br/>45 行]
+    end
+    
+    I1 --> P1
+    P5 --> O1
+    
+    style I1 fill:#ffe66d
+    style O1 fill:#4ecdc4,color:#fff
+```
+
+### 3.4 技术实现（伪代码）
 
 ```javascript
 async function autoDream() {
@@ -195,7 +217,34 @@ async function autoDream() {
 
 ## 4. 实际效果对比
 
-### 4.1 整理前
+### 4.1 整理前 vs 整理后
+
+```mermaid
+graph LR
+    subgraph 整理前
+        A1[350 行]
+        A2[12 条重复]
+        A3[8 处相对日期]
+        A4[主题混乱]
+    end
+    
+    subgraph 整理后
+        B1[45 行 ↓87%]
+        B2[0 条重复]
+        B3[0 处相对日期]
+        B4[4 个清晰分类]
+    end
+    
+    A1 --> B1
+    A2 --> B2
+    A3 --> B3
+    A4 --> B4
+    
+    style A1 fill:#ff6b6b,color:#fff
+    style B1 fill:#4ecdc4,color:#fff
+```
+
+### 4.2 整理前示例
 
 ```markdown
 ## 用户偏好
@@ -233,7 +282,7 @@ async function autoDream() {
 
 **总行数：** ~350 行
 
-### 4.2 整理后
+### 4.3 整理后示例
 
 ```markdown
 ## 编码偏好
@@ -274,7 +323,7 @@ async function autoDream() {
 
 **总行数：** ~45 行
 
-### 4.3 压缩效果
+### 4.4 压缩效果统计
 
 | 指标 | 整理前 | 整理后 | 改善 |
 |------|-------|-------|------|
@@ -290,6 +339,17 @@ async function autoDream() {
 ### 5.1 语义去重算法
 
 Auto-Dream 使用**向量相似度**检测重复：
+
+```mermaid
+flowchart LR
+    A[记忆条目] --> B[Embedding<br/>向量化]
+    B --> C[相似度矩阵<br/>余弦相似度]
+    C --> D[聚类分析<br/>阈值 0.85]
+    D --> E[保留最佳表述]
+    
+    style A fill:#ffe66d
+    style E fill:#4ecdc4,color:#fff
+```
 
 ```javascript
 async function removeSemanticDuplicates(entries, { threshold }) {
@@ -319,7 +379,7 @@ function detectStaleNotes(entry) {
     /昨天/,
     /上周/,
     /前几天/,
-    /\d+天前/,
+    /\d+ 天前/,
     /最近/,
     /目前\(截至 \d{4}-\d{2}-\d{2}\)/
   ];
@@ -376,7 +436,7 @@ function enforceLineLimit(memory, { maxLines, archiveExcess }) {
   for (const section of sections) {
     if (lineCount + section.lines.length > maxLines) {
       if (archiveExcess) {
-        archiveSection(section);
+        archiveSection(section);  // 归档超出部分
       }
       break;
     }
@@ -395,6 +455,16 @@ function enforceLineLimit(memory, { maxLines, archiveExcess }) {
 ### 6.1 自动运行
 
 Auto-Dream 默认**自动启用**，无需手动配置：
+
+```mermaid
+graph LR
+    A[会话数 ≥ 5] --> B[等待 24 小时]
+    B --> C[凌晨自动运行]
+    C --> D[用户无感知]
+    
+    style A fill:#ffe66d
+    style D fill:#4ecdc4,color:#fff
+```
 
 - **触发条件：** 会话数 ≥ 5
 - **运行频率：** 每 24 小时
@@ -447,28 +517,32 @@ Auto-Dream 默认**自动启用**，无需手动配置：
 
 ### 7.1 记忆分层模型
 
+```mermaid
+graph TB
+    subgraph 长期记忆
+        LM[MEMORY.md<br/>精选、巩固、持久化<br/>≤200 行]
+    end
+    
+    subgraph 短期记忆
+        SM[memory/YYYY-MM-DD.md<br/>原始、详细、按天记录<br/>无限制]
+    end
+    
+    subgraph 归档
+        AR[memory/archive/<br/>被删除的旧内容<br/>可追溯]
+    end
+    
+    SM -->|Auto-Dream 巩固 | LM
+    LM -->|超出部分 | AR
+    
+    style LM fill:#4ecdc4,color:#fff
+    style SM fill:#ffe66d
+    style AR fill:#ff6b6b,color:#fff
 ```
-┌─────────────────────────────────────┐
-│         长期记忆 (MEMORY.md)         │
-│    精选、巩固、持久化的知识          │
-│    ← Auto-Dream 定期整理             │
-└─────────────────────────────────────┘
-              ↑
-              │ 巩固
-              ↓
-┌─────────────────────────────────────┐
-│       短期记忆 (memory/*.md)         │
-│    原始、详细、按天的会话日志        │
-│    ← 每次会话自动记录                │
-└─────────────────────────────────────┘
-```
 
-### 7.2 遗忘机制
+### 7.2 选择性遗忘机制
 
-Auto-Dream 实现了**选择性遗忘**：
-
-| 保留 | 删除 |
-|------|------|
+| 保留 ✅ | 删除 ❌ |
+|--------|--------|
 | 用户偏好 | 重复表述 |
 | 项目配置 | 过时信息 |
 | 工作流程 | 临时上下文 |
@@ -478,15 +552,26 @@ Auto-Dream 实现了**选择性遗忘**：
 
 即使删除了原始笔记，Auto-Dream 也会：
 
-1. **归档被删除的内容**（`memory/archive/`）
-2. **记录整理日志**（`memory/dream-log.jsonl`）
-3. **保留更新时间戳**（可追溯最后修改时间）
+1. **归档被删除的内容** → `memory/archive/`
+2. **记录整理日志** → `memory/dream-log.jsonl`
+3. **保留更新时间戳** → 可追溯最后修改时间
 
 ---
 
 ## 8. 局限性与注意事项
 
 ### 8.1 当前限制
+
+```mermaid
+graph LR
+    L1[语言支持<br/>英文优化] --> L2[中文待改进]
+    L3[上下文理解<br/>可能误删] --> L4[需人工审查]
+    L5[归档检索<br/>手动查找] --> L6[缺少搜索]
+    
+    style L1 fill:#ff6b6b,color:#fff
+    style L3 fill:#ff6b6b,color:#fff
+    style L5 fill:#ff6b6b,color:#fff
+```
 
 1. **语言支持：** 主要针对英文优化，中文去重效果待改进
 2. **上下文理解：** 可能误删看似重复但实际重要的细微差别
@@ -503,6 +588,23 @@ Auto-Dream 实现了**选择性遗忘**：
 ## 9. 未来演进方向
 
 ### 9.1 可能的改进
+
+```mermaid
+mindmap
+  root((未来改进))
+    智能评分
+      模型评估重要性
+      优先保留高价值
+    用户反馈
+      恢复删除内容
+      学习用户偏好
+    项目隔离
+      分开整理
+      避免混淆
+    可视化图谱
+      展示关联
+      图形浏览
+```
 
 1. **智能重要性评分**
    - 使用模型评估每条记忆的重要性
@@ -522,17 +624,9 @@ Auto-Dream 实现了**选择性遗忘**：
 
 ### 9.2 扩展场景
 
-1. **团队记忆共享**
-   - 多用户共享记忆库
-   - Auto-Dream 整理团队知识
-
-2. **领域特定整理**
-   - 代码项目 vs 写作项目 vs 研究项目
-   - 不同领域采用不同整理策略
-
-3. **预测性整理**
-   - 预测哪些信息未来可能有用
-   - 提前保留而非事后删除
+1. **团队记忆共享** - 多用户共享记忆库，Auto-Dream 整理团队知识
+2. **领域特定整理** - 代码/写作/研究项目采用不同策略
+3. **预测性整理** - 预测未来有用信息，提前保留
 
 ---
 
@@ -542,11 +636,11 @@ Auto-Dream 实现了**选择性遗忘**：
 
 Auto-Dream 解决了 AI 智能体长期记忆的三大挑战：
 
-| 挑战 | Auto-Dream 方案 |
-|------|----------------|
-| **记忆膨胀** | 定期压缩，保持精简 |
-| **信息冗余** | 语义去重，合并相似 |
-| **时效混乱** | 日期标准化，过期标记 |
+| 挑战 | Auto-Dream 方案 | 效果 |
+|------|----------------|------|
+| **记忆膨胀** | 定期压缩，保持精简 | ↓ 87% 行数 |
+| **信息冗余** | 语义去重，合并相似 | 100% 消除重复 |
+| **时效混乱** | 日期标准化，过期标记 | 100% 标准化 |
 
 ### 10.2 设计启示
 
@@ -554,23 +648,37 @@ Auto-Dream 解决了 AI 智能体长期记忆的三大挑战：
 
 ### 10.3 关键指标
 
-- **压缩率：** 平均 60-80%
-- **运行频率：** 每 24 小时
-- **触发阈值：** 5+ 会话
-- **行数限制：** 200 行（MEMORY.md）
+```mermaid
+graph LR
+    A[压缩率<br/>60-80%] 
+    B[运行频率<br/>24 小时]
+    C[触发阈值<br/>5+ 会话]
+    D[行数限制<br/>200 行]
+    
+    style A fill:#4ecdc4,color:#fff
+    style B fill:#4ecdc4,color:#fff
+    style C fill:#4ecdc4,color:#fff
+    style D fill:#4ecdc4,color:#fff
+```
 
 ---
 
 ## 附录：相关资源
 
-### 官方文档
-- [Claude Code Memory 功能说明](https://docs.anthropic.com/claude-code/memory)
-- [Auto-Dream 技术博客](https://www.anthropic.com/news/auto-dream)
+### 信息来源
 
-### 第三方分析
-- [SFEIR Institute - Claude Code Dream & Auto Dream](https://institute.sfeir.com/en/articles/claude-code-dream-auto-dream-memory-consolidation/)
-- [Popular AI Tools - AutoDream Memory 2.0](https://popularaitools.ai/blog/claude-code-autodream-memory-2026)
-- [AI Productivity - Auto-Dream Memory Consolidation](https://aiproductivity.ai/news/claude-code-auto-dream-memory-consolidation/)
+> **说明：** Auto-Dream 是 2026 年 3 月新推出的功能，以下为第三方技术分析文章，非官方文档。
+
+- **SFEIR Institute** - [Claude Code Dream & Auto Dream 技术分析](https://institute.sfeir.com/en/articles/claude-code-dream-auto-dream-memory-consolidation/)
+- **Popular AI Tools** - [AutoDream Memory 2.0 详解](https://popularaitools.ai/blog/claude-code-autodream-memory-2026)
+- **AI Productivity** - [Auto-Dream 记忆巩固机制](https://aiproductivity.ai/news/claude-code-auto-dream-memory-consolidation/)
+- **How AI Works** - [Auto-dream 功能解析](https://howaiworks.ai/blog/claude-code-auto-dream-memory-feature)
+
+### 相关概念
+
+- **REM 睡眠** - [维基百科：快速眼动睡眠](https://en.wikipedia.org/wiki/Rapid_eye_movement_sleep)
+- **向量相似度** - [余弦相似度详解](https://en.wikipedia.org/wiki/Cosine_similarity)
+- **语义去重** - [文本去重技术综述](https://en.wikipedia.org/wiki/Duplicate_detection)
 
 ---
 

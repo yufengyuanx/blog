@@ -11,6 +11,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '技术笔记', link: '/tech/' },
+      { text: '技术调研', link: '/research/' },
       { text: '生活随笔', link: '/life/' },
       { text: '关于我', link: '/about' },
     ],
@@ -24,6 +25,14 @@ export default defineConfig({
             { text: 'Java 心得', link: '/tech/java-notes' },
             { text: 'Python 技巧', link: '/tech/python-tips' },
             { text: 'AI/LLM 探索', link: '/tech/ai-llm' },
+          ],
+        },
+      ],
+      '/research/': [
+        {
+          text: '技术调研',
+          items: [
+            { text: 'OpenClaw 多智能体协作', link: '/research/openclaw-multi-agent-collaboration' },
           ],
         },
       ],

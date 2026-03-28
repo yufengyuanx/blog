@@ -9,7 +9,7 @@ readingTime: 12
 # 🎨 浦东美术馆「非常毕加索」观展随笔
 
 > **观展日期**: 2026 年 3 月 28 日  
-> **展览地点**: 上海浦东美术馆
+> **地点**: 上海浦东美术馆
 
 ---
 
@@ -31,7 +31,6 @@ readingTime: 12
 
 | 项目 | 内容 |
 |------|------|
-| **全名** | 巴勃罗·迭戈·何塞·弗朗西斯科·狄·保拉·胡安·纳波穆西诺·玛莉亚·狄·洛斯·雷梅迪奥斯·西普里亚诺·狄·拉·圣地西玛·特里尼达·路易斯·毕加索 |
 | **出生** | 1881 年 10 月 25 日，西班牙马拉加 |
 | **逝世** | 1973 年 4 月 8 日，法国穆然，享年 91 岁 |
 | **国籍** | 西班牙 → 法国 |
@@ -58,12 +57,11 @@ readingTime: 12
 
 **背景**: 1901 年，毕加索的好友卡洛斯·卡萨吉马斯自杀身亡，这对年轻的毕加索打击巨大。他开始用阴郁的蓝色和蓝绿色调作画。
 
-**主题**: 
-- 乞丐、流浪汉、妓女、酒鬼
-- 社会底层人物的苦难
-- 孤独、悲伤、绝望的情绪
-
 **代表作品**:
+
+![The Old Guitarist](https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Pablo_Picasso%2C_1903-04%2C_The_Old_Guitarist%2C_Oil_on_panel%2C_122.9_x_82.6_cm%2C_Art_Institute_of_Chicago.jpg/800px-Pablo_Picasso%2C_1903-04%2C_The_Old_Guitarist%2C_Oil_on_panel%2C_122.9_x_82.6_cm%2C_Art_Institute_of_Chicago.jpg)
+*《老吉他手》(1903) - 蓝色时期代表作，现藏芝加哥艺术博物馆*
+
 - 《卡萨吉马斯的葬礼》(1901)
 - 《老吉他手》(1903)
 - 《生命》(1903)
@@ -80,12 +78,11 @@ readingTime: 12
 
 **背景**: 1904 年，毕加索定居巴黎，与费尔南德·奥利维耶坠入爱河。他的色调开始变得温暖。
 
-**主题**:
-- 马戏团演员、小丑、杂技表演者
-- 爱情、友谊、欢乐
-- 柔和的人物形象
-
 **代表作品**:
+
+![Boy with a Pipe](https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Pablo_Picasso%2C_1905%2C_Gar%C3%A7on_%C3%A0_la_pipe%2C_oil_on_canvas%2C_100_x_81_cm%2C_Private_collection.jpg/800px-Pablo_Picasso%2C_1905%2C_Gar%C3%A7on_%C3%A0_la_pipe%2C_oil_on_canvas%2C_100_x_81_cm%2C_Private_collection.jpg)
+*《拿烟斗的男孩》(1905) - 玫瑰时期代表作，曾以 1.04 亿美元成交*
+
 - 《拿烟斗的男孩》(1905)
 - 《马戏演员之家》(1905)
 - 《两位裸女》(1906)
@@ -101,12 +98,11 @@ readingTime: 12
 
 **背景**: 毕加索接触到非洲和大洋洲的原始艺术，深受启发。
 
-**主题**:
-- 原始艺术元素
-- 面具式的面孔
-- 几何化的人体
-
 **代表作品**:
+
+![Les Demoiselles d'Avignon](https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Les_Demoiselles_d%27Avignon.jpg/800px-Les_Demoiselles_d%27Avignon.jpg)
+*《亚维农的少女》(1907) - 现代艺术里程碑，现藏纽约 MoMA*
+
 - 《亚维农的少女》(1907) ⭐ **里程碑之作**
 
 **风格特点**:
@@ -123,13 +119,11 @@ readingTime: 12
 **核心理念**:
 > "我不是画我看到的，而是画我想到的。"
 
-**特点**:
-- 将物体分解为几何形状
-- 同时呈现多个视角
-- 摒弃传统透视法
-- 画面呈现碎片化、抽象化
-
 **代表作品**:
+
+![Girl with a Mandolin](https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Pablo_Picasso%2C_1910%2C_Girl_with_a_Mandolin%2C_oil_on_canvas%2C_100.3_x_73.7_cm%2C_The_Museum_of_Modern_Art%2C_New_York.jpg/800px-Pablo_Picasso%2C_1910%2C_Girl_with_a_Mandolin%2C_oil_on_canvas%2C_100.3_x_73.7_cm%2C_The_Museum_of_Modern_Art%2C_New_York.jpg)
+*《弹曼陀林的少女》(1910) - 分析立体主义代表作*
+
 - 《弹曼陀林的少女》(1910)
 - 《瓶子、玻璃杯和小提琴》(1913)
 - 《格尔尼卡》(1937) - 后期立体主义巅峰
@@ -145,12 +139,11 @@ readingTime: 12
 
 **背景**: 第一次世界大战后，毕加索访问意大利，受到古典艺术的影响。
 
-**主题**:
-- 古希腊罗马神话
-- 健壮的人体
-- 母与子主题
-
 **代表作品**:
+
+![Three Women at the Spring](https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/Pablo_Picasso%2C_1921%2C_Three_Women_at_the_Spring%2C_oil_on_canvas%2C_203.2_x_174_cm%2C_The_Museum_of_Modern_Art%2C_New_York.jpg/800px-Pablo_Picasso%2C_1921%2C_Three_Women_at_the_Spring%2C_oil_on_canvas%2C_203.2_x_174_cm%2C_The_Museum_of_Modern_Art%2C_New_York.jpg)
+*《泉边三女子》(1921) - 新古典主义代表作，现藏纽约 MoMA*
+
 - 《泉边三女子》(1921)
 - 《母与子》(1921)
 
@@ -165,12 +158,11 @@ readingTime: 12
 
 **背景**: 毕加索受到超现实主义运动影响，开始探索潜意识和梦境。
 
-**主题**:
-- 扭曲的人体
-- 梦境般的场景
-- 强烈的情感表达
-
 **代表作品**:
+
+![The Weeping Woman](https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Pablo_Picasso%2C_1937%2C_The_Weeping_Woman%2C_oil_on_canvas%2C_60_x_49_cm%2C_Tate_Modern%2C_London.jpg/800px-Pablo_Picasso%2C_1937%2C_The_Weeping_Woman%2C_oil_on_canvas%2C_60_x_49_cm%2C_Tate_Modern%2C_London.jpg)
+*《哭泣的女人》(1937) - 超现实主义时期代表作，现藏伦敦泰特现代美术馆*
+
 - 《舞蹈》(1925)
 - 《哭泣的女人》(1937)
 - 《格尔尼卡》(1937)
@@ -186,20 +178,17 @@ readingTime: 12
 
 **背景**: 二战后，毕加索定居法国南部，进入创作生涯的最后阶段。
 
-**创作领域**:
-- 绘画
-- 雕塑
-- 版画
-- 陶艺
-- 舞台设计
-
-**风格特点**:
-> 风格更加自由多元，融合之前各时期元素，充满实验性和游戏精神。
-
 **代表作品**:
+
+![The Massacre in Korea](https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Pablo_Picasso%2C_1951%2C_The_Massacre_in_Korea%2C_oil_on_canvas%2C_110_x_210_cm%2C_Mus%C3%A9e_Picasso%2C_Paris.jpg/800px-Pablo_Picasso%2C_1951%2C_The_Massacre_in_Korea%2C_oil_on_canvas%2C_110_x_210_cm%2C_Mus%C3%A9e_Picasso%2C_Paris.jpg)
+*《朝鲜大屠杀》(1951) - 反战题材作品，现藏巴黎毕加索博物馆*
+
 - 《朝鲜大屠杀》(1951)
 - 《阿尔及尔女人》系列 (1955)
 - 大量陶艺作品
+
+**风格特点**:
+> 风格更加自由多元，融合之前各时期元素，充满实验性和游戏精神。
 
 ---
 
@@ -214,8 +203,6 @@ readingTime: 12
 **历史事件**: 
 > 1937 年 4 月 26 日，西班牙内战期间，纳粹德国空军应弗朗哥政权请求，对西班牙巴斯克地区的格尔尼卡小镇实施无差别轰炸，造成大量平民伤亡。
 
-**委托**: 西班牙共和国政府委托毕加索为 1937 年巴黎世界博览会西班牙馆创作壁画。
-
 ### 作品信息
 
 | 项目 | 内容 |
@@ -224,6 +211,11 @@ readingTime: 12
 | **材质** | 布面油画 |
 | **色调** | 黑、白、灰 |
 | **现藏** | 马德里索菲亚王后国家艺术中心博物馆 |
+
+### 作品图片
+
+![Guernica](https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Pablo_Picasso%2C_1937%2C_Guernica%2C_oil_on_canvas%2C_349.3_cm_%C3%97_776.6_cm%2C_Museo_Nacional_Centro_de_Arte_Reina_Sof%C3%ADa.jpg/800px-Pablo_Picasso%2C_1937%2C_Guernica%2C_oil_on_canvas%2C_349.3_cm_%C3%97_776.6_cm%2C_Museo_Nacional_Centro_de_Arte_Reina_Sof%C3%ADa.jpg)
+*《格尔尼卡》(1937) - 20 世纪最有影响力的绘画之一*
 
 ### 画面解读
 
@@ -250,13 +242,6 @@ readingTime: 12
 ### 历史影响
 
 > 《格尔尼卡》是 20 世纪最有影响力的绘画之一，成为反战、反法西斯的永恒符号。
-
-**流传历程**:
-- 1937 年：巴黎世博会西班牙馆首次展出
-- 1939-1952 年：美国多地巡展，为西班牙难民筹款
-- 1952-1981 年：纽约现代艺术博物馆（MoMA）保管
-- 1981 年：归还西班牙，藏于普拉多博物馆
-- 1992 年至今：马德里索菲亚王后国家艺术中心博物馆
 
 **复制品**: 联合国安理会会议厅外悬挂着一幅《格尔尼卡》挂毯复制品，时刻提醒世人战争的残酷。
 
@@ -378,27 +363,6 @@ readingTime: 12
 
 ---
 
-## 七、展览信息
-
-### 浦东美术馆「非常毕加索」
-
-**展期**: 2026 年 X 月 X 日 - X 月 X 日（请以官方信息为准）
-
-**地点**: 上海市浦东新区滨江大道 2777 号 浦东美术馆
-
-**展品**: 
-- 毕加索原作绘画
-- 雕塑作品
-- 版画
-- 文献资料
-
-**参观建议**:
-- 预留 2-3 小时
-- 建议租用语音导览
-- 可提前了解毕加索生平
-
----
-
 ## 结语：永恒的毕加索
 
 毕加索已经离开我们 50 多年了，但他的艺术依然鲜活。
@@ -410,6 +374,8 @@ readingTime: 12
 或许，这就是毕加索留给我们的最大遗产。
 
 ---
+
+**图片来源**: 维基百科公共领域 / Wikimedia Commons
 
 **参考文献**:
 

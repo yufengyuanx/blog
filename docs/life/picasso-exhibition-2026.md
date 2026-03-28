@@ -70,7 +70,7 @@ readingTime: 12
 | **材质** | 布面油画 |
 | **时期** | 蓝色时期 |
 
-🔗 **[查看高清图片](https://www.artic.edu/artworks/28067/the-old-guitarist)** (芝加哥艺术博物馆官网)
+![老吉他手](/blog/assets/picasso/old-guitarist.jpg)
 
 </div>
 
@@ -104,7 +104,7 @@ readingTime: 12
 | **时期** | 玫瑰时期 |
 | **纪录** | 2004 年 1.04 亿美元成交 |
 
-🔗 **[查看高清图片](https://en.wikipedia.org/wiki/Boy_with_a_Pipe)** (维基百科)
+![拿烟斗的男孩](/blog/assets/picasso/boy-with-pipe.jpg)
 
 </div>
 
@@ -137,7 +137,7 @@ readingTime: 12
 | **时期** | 非洲时期 |
 | **地位** | ⭐ 现代艺术里程碑 |
 
-🔗 **[查看高清图片](https://www.moma.org/collection/works/79522)** (MoMA 官网)
+![亚维农的少女](/blog/assets/picasso/demoiselles.jpg)
 
 </div>
 
@@ -170,7 +170,7 @@ readingTime: 12
 | **材质** | 布面油画 |
 | **时期** | 立体主义时期 |
 
-🔗 **[查看高清图片](https://www.moma.org/collection/works/79523)** (MoMA 官网)
+![弹曼陀林的少女](/blog/assets/picasso/girl-mandolin.jpg)
 
 </div>
 
@@ -202,7 +202,7 @@ readingTime: 12
 | **材质** | 布面油画 |
 | **时期** | 新古典主义时期 |
 
-🔗 **[查看高清图片](https://www.moma.org/collection/works/79524)** (MoMA 官网)
+![泉边三女子](/blog/assets/picasso/three-women.jpg)
 
 </div>
 
@@ -233,7 +233,7 @@ readingTime: 12
 | **材质** | 布面油画 |
 | **时期** | 超现实主义时期 |
 
-🔗 **[查看高清图片](https://www.tate.org.uk/art/artworks/picasso-weeping-woman-t05010)** (泰特美术馆官网)
+![哭泣的女人](/blog/assets/picasso/weeping-woman.jpg)
 
 </div>
 
@@ -266,7 +266,7 @@ readingTime: 12
 | **时期** | 晚年时期 |
 | **主题** | 🕊️ 反战题材 |
 
-🔗 **[查看高清图片](https://www.museepicassoparis.fr/)** (巴黎毕加索博物馆官网)
+![朝鲜大屠杀](/blog/assets/picasso/korea-massacre.jpg)
 
 </div>
 
@@ -304,11 +304,11 @@ readingTime: 12
 | **收藏** | 马德里索菲亚王后国家艺术中心博物馆 |
 | **创作时间** | 35 天（1937 年 4 月 -5 月） |
 
-🔗 **[查看高清大图](https://www.museoreinasofia.es/)** (索菲亚王后博物馆官网)
+![格尔尼卡](/blog/assets/picasso/guernica.jpg)
 
 </div>
 
-💡 **欣赏提示**: 由于作品巨大（近 8 米宽），建议在官网查看全景图或高分辨率细节图。
+💡 **欣赏提示**: 由于作品巨大（近 8 米宽），建议在博物馆官网查看全景图或高分辨率细节图。
 
 《格尔尼卡》采用立体主义和超现实主义手法，画面中充满象征性符号：
 

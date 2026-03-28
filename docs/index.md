@@ -149,21 +149,29 @@ features:
   width: 100%;
   border-collapse: collapse;
   margin: 1.5rem 0;
+  background: transparent;
 }
 
 .categories-grid th,
 .categories-grid td {
-  padding: 1rem;
-  border: 1px solid var(--vp-c-divider);
+  padding: 0.75rem 1rem;
+  border: none;
+  border-bottom: 1px solid var(--vp-c-divider-light);
   text-align: left;
+  background: transparent;
 }
 
 .categories-grid th {
-  background: var(--vp-c-bg-soft);
   font-weight: 600;
+  color: var(--vp-c-text-1);
+  background: transparent;
 }
 
-.categories-grid tr:hover {
+.categories-grid tr:last-child td {
+  border-bottom: none;
+}
+
+.categories-grid tr:hover td {
   background: var(--vp-c-bg-soft);
 }
 </style>

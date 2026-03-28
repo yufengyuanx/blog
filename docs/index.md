@@ -71,7 +71,6 @@ features:
 |------|------|------|
 | 💻 技术笔记 | Java、Python、AI/LLM 等技术学习心得 | 2 篇 |
 | 🔬 技术调研 | 深度技术调研与架构设计 | 1 篇 |
-| ☕ 生活随笔 | 读书感悟、日常记录（筹备中） | 敬请期待 |
 
 </div>
 
@@ -86,7 +85,6 @@ features:
 ## 📬 订阅更新
 
 - [GitHub](https://github.com/yufengyuanx) - 关注我的开源项目
-- [RSS](/blog/feed.xml) - 订阅最新文章
 
 ---
 

@@ -16,7 +16,6 @@ description: 深度技术调研与架构设计文档
 | 标题 | 发布日期 | 标签 |
 |------|----------|------|
 | [OpenClaw 多智能体协作系统技术调研](/research/openclaw-multi-agent-collaboration) | 2026-03-27 | `AI` `Agent` `架构` |
-| [Claude Code Auto-Dream](/research/claude-code-auto-dream) | 待定 | `AI` `自动化` |
 
 </div>
 

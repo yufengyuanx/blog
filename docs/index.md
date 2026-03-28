@@ -31,10 +31,6 @@ features:
     title: 技术调研
     details: 深度技术调研与架构设计文档
     link: /research/
-  - icon: ☕
-    title: 生活随笔
-    details: 读书感悟、日常记录、工作之外的思考
-    link: /life/
 ---
 
 ## 📰 最新文章
@@ -71,11 +67,11 @@ features:
 
 <div class="categories-grid">
 
-| 分类 | 描述 | 文章 |
+| 分类 | 描述 | 文章数 |
 |------|------|------|
-| 💻 技术笔记 | Java、Python、AI/LLM 等技术学习心得 | [浏览 →](/tech/) |
-| 🔬 技术调研 | 深度技术调研与架构设计 | [浏览 →](/research/) |
-| ☕ 生活随笔 | 读书感悟、日常记录 | [浏览 →](/life/) |
+| 💻 技术笔记 | Java、Python、AI/LLM 等技术学习心得 | 2 篇 |
+| 🔬 技术调研 | 深度技术调研与架构设计 | 1 篇 |
+| ☕ 生活随笔 | 读书感悟、日常记录（筹备中） | 敬请期待 |
 
 </div>
 
@@ -90,7 +86,7 @@ features:
 ## 📬 订阅更新
 
 - [GitHub](https://github.com/yufengyuanx) - 关注我的开源项目
-- [RSS](/blog/feed.xml) - 订阅最新文章（即将上线）
+- [RSS](/blog/feed.xml) - 订阅最新文章
 
 ---
 

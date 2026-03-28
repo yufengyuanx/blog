@@ -3,6 +3,7 @@ title: "100 个 Skills 第 2 期：Summarize - 全能内容摘要工具"
 date: 2026-03-28
 description: 介绍 ClawHub 下载量 Top 1 的摘要工具，支持网页、PDF、图片、音频、YouTube 一键总结
 tags: [OpenClaw, Skill, 效率，工具推荐]
+readingTime: 8
 ---
 
 # 📝 100 个 Skills 第 2 期：Summarize
@@ -387,3 +388,14 @@ openclaw skills install summarize
 **系列说明：** "100 个 Skills" 是一个技术科普系列，每天介绍一个热门 OpenClaw skill，帮助你发现和了解最有价值的工具。
 
 *Last updated: 2026-03-28*
+
+---
+
+## 📤 分享本文
+
+觉得这篇文章有用？分享给更多人！
+
+<div class="article-share">
+  <button class="share-button copy">🔗 复制链接</button>
+  <button class="share-button wechat">💬 微信分享</button>
+</div>

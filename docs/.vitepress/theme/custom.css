@@ -1,0 +1,169 @@
+/* 自定义样式 */
+
+/* 阅读时间估计 */
+.reading-time {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.875rem;
+  color: var(--vp-c-text-2);
+  margin-left: 0.5rem;
+}
+
+.reading-time svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* 文章分享按钮 */
+.article-share {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+.share-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.share-button:hover {
+  transform: translateY(-2px);
+}
+
+.share-button.wechat {
+  background: #07c160;
+  color: white;
+}
+
+.share-button.copy {
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  border: 1px solid var(--vp-c-divider);
+}
+
+.share-button.copy:hover {
+  background: var(--vp-c-brand);
+  color: white;
+}
+
+/* 移动端优化 */
+@media (max-width: 768px) {
+  .article-share {
+    flex-wrap: wrap;
+  }
+  
+  .share-button {
+    flex: 1;
+    min-width: 120px;
+    justify-content: center;
+  }
+}
+
+/* 表格响应式 */
+.VPContent table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* 代码块移动端优化 */
+@media (max-width: 768px) {
+  .vp-code {
+    font-size: 0.8125rem;
+  }
+  
+  div[class*='language-'] {
+    margin: 0 -1rem;
+    border-radius: 0;
+  }
+}
+
+/* 面包屑导航 */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--vp-c-text-2);
+  margin-bottom: 1rem;
+}
+
+.breadcrumb a {
+  color: var(--vp-c-brand);
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb .separator {
+  color: var(--vp-c-text-3);
+}
+
+/* 标签云 */
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.tag-cloud a {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: var(--vp-c-bg-soft);
+  border-radius: 20px;
+  font-size: 0.875rem;
+  color: var(--vp-c-text-2);
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.tag-cloud a:hover {
+  background: var(--vp-c-brand);
+  color: white;
+}
+
+/* 归档列表 */
+.archive-list {
+  list-style: none;
+  padding: 0;
+}
+
+.archive-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.archive-list li:last-child {
+  border-bottom: none;
+}
+
+.archive-list .date {
+  color: var(--vp-c-text-3);
+  font-size: 0.875rem;
+}
+
+/* 深色模式优化 */
+.dark .share-button.copy {
+  background: var(--vp-c-bg-soft);
+}
+
+.dark .share-button.copy:hover {
+  background: var(--vp-c-brand);
+}

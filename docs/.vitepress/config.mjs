@@ -7,9 +7,17 @@ export default withMermaid(defineConfig({
   description: "技术学习笔记与生活记录",
   base: '/blog/',
   
+  // 使用自定义主题
+  srcDir: './docs',
+  outDir: './docs/.vitepress/dist',
+  
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
+    ['meta', { name: 'description', content: '技术学习笔记与生活记录 - Frank Yuan 的个人博客' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:locale', content: 'zh-CN' }],
+    ['link', { rel: 'sitemap', href: '/blog/sitemap.xml' }],
   ],
   
   themeConfig: {
@@ -27,14 +35,15 @@ export default withMermaid(defineConfig({
         activeMatch: '/research/'
       },
       { 
-        text: '☕ 生活随笔', 
-        link: '/life/',
-        activeMatch: '/life/'
+        text: '🎯 100 个 Skills', 
+        link: '/tech/series/100-skills',
+        activeMatch: '/tech/series/'
       },
       { 
-        text: '📖 系列专栏', 
+        text: '🗂️ 更多', 
         items: [
-          { text: '🎯 100 个 Skills', link: '/tech/series/100-skills' },
+          { text: '📅 文章归档', link: '/archive' },
+          { text: '🏷️ 标签云', link: '/tags' },
         ]
       },
       { text: '👤 关于我', link: '/about' },

@@ -4,9 +4,6 @@ hero:
   name: "Frank's Blog"
   text: "技术学习笔记与生活记录"
   tagline: 保持好奇，持续学习
-  image:
-    src: /logo.png
-    alt: Frank's Blog
   actions:
     - theme: brand
       text: 开始阅读 →
@@ -109,7 +106,12 @@ features:
 .latest-posts a {
   font-size: 1.1rem;
   font-weight: 600;
-  color: var(--vp-c-text-1);
+  color: var(--vp-c-brand);
+  text-decoration: none;
+}
+
+.latest-posts a:hover {
+  text-decoration: underline;
 }
 
 .latest-posts code {

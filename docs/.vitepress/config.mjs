@@ -78,6 +78,7 @@ export default withMermaid(defineConfig({
           text: '技术调研',
           items: [
             { text: '📋 全部文章', link: '/research/' },
+            { text: 'Claude Code Auto-Dream', link: '/research/claude-code-auto-dream' },
             { text: 'OpenClaw 多智能体协作', link: '/research/openclaw-multi-agent-collaboration' },
           ],
         },

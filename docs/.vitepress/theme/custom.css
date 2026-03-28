@@ -1,36 +1,163 @@
 /* 自定义样式 */
 
-/* 修复链接蓝色背景问题 */
-.VPLink.link {
+/* ========================================
+   全局链接样式修复 - 移除蓝色背景
+   ======================================== */
+
+/* 所有链接强制透明背景 */
+a, .VPLink, .VPLink.link, .VPLink.link:hover {
   background: transparent !important;
   box-shadow: none !important;
+  -webkit-box-shadow: none !important;
 }
 
-.VPLink.link:hover {
+/* 导航栏链接 */
+.VPNavBarMenuLink,
+.VPNavBarMenuLink:hover,
+.VPNavBarMenuLink.active {
   background: transparent !important;
 }
 
-/* VPFeature 卡片链接 */
-.VPFeature .link {
+/* 侧边栏链接 */
+.VPSidebarItem .link,
+.VPSidebarItem .link:hover {
   background: transparent !important;
 }
 
-/* 表格中的链接 */
-.categories-grid a {
+/* 特性卡片链接 */
+.VPFeature,
+.VPFeature:hover {
+  background: transparent !important;
+}
+
+.VPFeature .link,
+.VPFeature .link:hover {
+  background: transparent !important;
+}
+
+/* 文章列表链接 */
+.latest-posts a,
+.latest-posts a:hover {
   background: transparent !important;
   color: var(--vp-c-brand) !important;
+}
+
+/* 表格链接 */
+.categories-grid a,
+.categories-grid a:hover {
+  background: transparent !important;
+  color: var(--vp-c-brand) !important;
+}
+
+/* 系列专栏区域链接 */
+.series-section a,
+.series-section a:hover {
+  background: var(--vp-c-brand) !important;
+  color: white !important;
+}
+
+/* ========================================
+   表格样式优化
+   ======================================== */
+
+.categories-grid table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background: transparent;
+}
+
+.categories-grid th,
+.categories-grid td {
+  padding: 0.75rem 1rem;
+  border: none;
+  border-bottom: 1px solid var(--vp-c-divider-light);
+  text-align: left;
+  background: transparent;
+}
+
+.categories-grid th {
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  background: transparent;
+}
+
+.categories-grid tr:last-child td {
+  border-bottom: none;
+}
+
+.categories-grid tr:hover td {
+  background: var(--vp-c-bg-soft);
+}
+
+/* ========================================
+   其他组件样式
+   ======================================== */
+
+/* 最新文章列表 */
+.latest-posts {
+  margin: 2rem 0;
+}
+
+.latest-posts ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.latest-posts li {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border-left: 4px solid var(--vp-c-brand);
+  background: var(--vp-c-bg-soft);
+  border-radius: 0 8px 8px 0;
+}
+
+.latest-posts a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--vp-c-brand);
   text-decoration: none;
 }
 
-.categories-grid a:hover {
+.latest-posts a:hover {
   text-decoration: underline;
 }
 
-/* 最新文章列表中的链接 */
-.latest-posts a {
-  background: transparent !important;
-  color: var(--vp-c-brand) !important;
+.latest-posts code {
+  font-size: 0.85rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  background: var(--vp-c-bg-alt);
+  margin-left: 0.5rem;
 }
+
+/* 系列专栏区域 */
+.series-section {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, var(--vp-c-brand-soft) 0%, var(--vp-c-bg-soft) 100%);
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-brand);
+}
+
+.series-section a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: var(--vp-c-brand);
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.series-section a:hover {
+  background: var(--vp-c-brand-dark);
+}
+
+/* ========================================
+   组件特定样式
+   ======================================== */
 
 /* 阅读时间估计 */
 .reading-time {
@@ -198,4 +325,11 @@
 
 .dark .share-button.copy:hover {
   background: var(--vp-c-brand);
+}
+
+/* 深色模式下链接背景 */
+.dark a,
+.dark .VPLink,
+.dark .VPLink.link {
+  background: transparent !important;
 }

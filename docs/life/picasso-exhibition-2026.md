@@ -70,7 +70,7 @@ readingTime: 12
 | **材质** | 布面油画 |
 | **时期** | 蓝色时期 |
 
-![老吉他手](/blog/assets/picasso/old-guitarist.jpg)
+![老吉他手](../assets/picasso/old-guitarist.jpg)
 
 </div>
 
@@ -104,7 +104,7 @@ readingTime: 12
 | **时期** | 玫瑰时期 |
 | **纪录** | 2004 年 1.04 亿美元成交 |
 
-![拿烟斗的男孩](/blog/assets/picasso/boy-with-pipe.jpg)
+![拿烟斗的男孩](../assets/picasso/boy-with-pipe.jpg)
 
 </div>
 
@@ -137,7 +137,7 @@ readingTime: 12
 | **时期** | 非洲时期 |
 | **地位** | ⭐ 现代艺术里程碑 |
 
-![亚维农的少女](/blog/assets/picasso/demoiselles.jpg)
+![亚维农的少女](../assets/picasso/demoiselles.jpg)
 
 </div>
 
@@ -170,7 +170,7 @@ readingTime: 12
 | **材质** | 布面油画 |
 | **时期** | 立体主义时期 |
 
-![弹曼陀林的少女](/blog/assets/picasso/girl-mandolin.jpg)
+![弹曼陀林的少女](../assets/picasso/girl-mandolin.jpg)
 
 </div>
 
@@ -202,7 +202,7 @@ readingTime: 12
 | **材质** | 布面油画 |
 | **时期** | 新古典主义时期 |
 
-![泉边三女子](/blog/assets/picasso/three-women.jpg)
+![泉边三女子](../assets/picasso/three-women.jpg)
 
 </div>
 
@@ -233,7 +233,7 @@ readingTime: 12
 | **材质** | 布面油画 |
 | **时期** | 超现实主义时期 |
 
-![哭泣的女人](/blog/assets/picasso/weeping-woman.jpg)
+![哭泣的女人](../assets/picasso/weeping-woman.jpg)
 
 </div>
 
@@ -266,7 +266,7 @@ readingTime: 12
 | **时期** | 晚年时期 |
 | **主题** | 🕊️ 反战题材 |
 
-![朝鲜大屠杀](/blog/assets/picasso/korea-massacre.jpg)
+![朝鲜大屠杀](../assets/picasso/korea-massacre.jpg)
 
 </div>
 
@@ -304,7 +304,7 @@ readingTime: 12
 | **收藏** | 马德里索菲亚王后国家艺术中心博物馆 |
 | **创作时间** | 35 天（1937 年 4 月 -5 月） |
 
-![格尔尼卡](/blog/assets/picasso/guernica.jpg)
+![格尔尼卡](../assets/picasso/guernica.jpg)
 
 </div>
 

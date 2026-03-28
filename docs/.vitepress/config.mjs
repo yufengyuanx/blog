@@ -7,10 +7,6 @@ export default withMermaid(defineConfig({
   description: "技术学习笔记与生活记录",
   base: '/blog/',
   
-  // 使用自定义主题
-  srcDir: './docs',
-  outDir: './docs/.vitepress/dist',
-  
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
@@ -43,7 +39,6 @@ export default withMermaid(defineConfig({
         text: '🗂️ 更多', 
         items: [
           { text: '📅 文章归档', link: '/archive' },
-          { text: '🏷️ 标签云', link: '/tags' },
         ]
       },
       { text: '👤 关于我', link: '/about' },

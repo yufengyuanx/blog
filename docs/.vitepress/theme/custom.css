@@ -1,5 +1,37 @@
 /* 自定义样式 */
 
+/* 修复链接蓝色背景问题 */
+.VPLink.link {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.VPLink.link:hover {
+  background: transparent !important;
+}
+
+/* VPFeature 卡片链接 */
+.VPFeature .link {
+  background: transparent !important;
+}
+
+/* 表格中的链接 */
+.categories-grid a {
+  background: transparent !important;
+  color: var(--vp-c-brand) !important;
+  text-decoration: none;
+}
+
+.categories-grid a:hover {
+  text-decoration: underline;
+}
+
+/* 最新文章列表中的链接 */
+.latest-posts a {
+  background: transparent !important;
+  color: var(--vp-c-brand) !important;
+}
+
 /* 阅读时间估计 */
 .reading-time {
   display: inline-flex;

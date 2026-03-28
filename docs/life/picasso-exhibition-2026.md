@@ -59,8 +59,11 @@ readingTime: 12
 
 **代表作品**:
 
-![The Old Guitarist](https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Pablo_Picasso%2C_1903-04%2C_The_Old_Guitarist%2C_Oil_on_panel%2C_122.9_x_82.6_cm%2C_Art_Institute_of_Chicago.jpg/800px-Pablo_Picasso%2C_1903-04%2C_The_Old_Guitarist%2C_Oil_on_panel%2C_122.9_x_82.6_cm%2C_Art_Institute_of_Chicago.jpg)
-*《老吉他手》(1903) - 蓝色时期代表作，现藏芝加哥艺术博物馆*
+```
+🖼️ 《老吉他手》(1903)
+📍 芝加哥艺术博物馆
+📐 122.9 × 82.6 cm
+```
 
 - 《卡萨吉马斯的葬礼》(1901)
 - 《老吉他手》(1903)
@@ -80,8 +83,11 @@ readingTime: 12
 
 **代表作品**:
 
-![Boy with a Pipe](https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Pablo_Picasso%2C_1905%2C_Gar%C3%A7on_%C3%A0_la_pipe%2C_oil_on_canvas%2C_100_x_81_cm%2C_Private_collection.jpg/800px-Pablo_Picasso%2C_1905%2C_Gar%C3%A7on_%C3%A0_la_pipe%2C_oil_on_canvas%2C_100_x_81_cm%2C_Private_collection.jpg)
-*《拿烟斗的男孩》(1905) - 玫瑰时期代表作，曾以 1.04 亿美元成交*
+```
+🖼️ 《拿烟斗的男孩》(1905)
+📍 私人收藏
+💰 2004 年以 1.04 亿美元成交
+```
 
 - 《拿烟斗的男孩》(1905)
 - 《马戏演员之家》(1905)
@@ -100,10 +106,14 @@ readingTime: 12
 
 **代表作品**:
 
-![Les Demoiselles d'Avignon](https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Les_Demoiselles_d%27Avignon.jpg/800px-Les_Demoiselles_d%27Avignon.jpg)
-*《亚维农的少女》(1907) - 现代艺术里程碑，现藏纽约 MoMA*
+```
+🖼️ 《亚维农的少女》(1907)
+📍 纽约现代艺术博物馆 (MoMA)
+📐 243.9 × 233.7 cm
+⭐ 现代艺术里程碑之作
+```
 
-- 《亚维农的少女》(1907) ⭐ **里程碑之作**
+- 《亚维农的少女》(1907)
 
 **风格特点**:
 > 人物形象被简化为几何形状，面部呈现非洲面具的特征，开启了立体主义的先声。
@@ -121,8 +131,11 @@ readingTime: 12
 
 **代表作品**:
 
-![Girl with a Mandolin](https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Pablo_Picasso%2C_1910%2C_Girl_with_a_Mandolin%2C_oil_on_canvas%2C_100.3_x_73.7_cm%2C_The_Museum_of_Modern_Art%2C_New_York.jpg/800px-Pablo_Picasso%2C_1910%2C_Girl_with_a_Mandolin%2C_oil_on_canvas%2C_100.3_x_73.7_cm%2C_The_Museum_of_Modern_Art%2C_New_York.jpg)
-*《弹曼陀林的少女》(1910) - 分析立体主义代表作*
+```
+🖼️ 《弹曼陀林的少女》(1910)
+📍 纽约现代艺术博物馆 (MoMA)
+📐 100.3 × 73.7 cm
+```
 
 - 《弹曼陀林的少女》(1910)
 - 《瓶子、玻璃杯和小提琴》(1913)
@@ -141,8 +154,11 @@ readingTime: 12
 
 **代表作品**:
 
-![Three Women at the Spring](https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/Pablo_Picasso%2C_1921%2C_Three_Women_at_the_Spring%2C_oil_on_canvas%2C_203.2_x_174_cm%2C_The_Museum_of_Modern_Art%2C_New_York.jpg/800px-Pablo_Picasso%2C_1921%2C_Three_Women_at_the_Spring%2C_oil_on_canvas%2C_203.2_x_174_cm%2C_The_Museum_of_Modern_Art%2C_New_York.jpg)
-*《泉边三女子》(1921) - 新古典主义代表作，现藏纽约 MoMA*
+```
+🖼️ 《泉边三女子》(1921)
+📍 纽约现代艺术博物馆 (MoMA)
+📐 203.2 × 174 cm
+```
 
 - 《泉边三女子》(1921)
 - 《母与子》(1921)
@@ -160,8 +176,11 @@ readingTime: 12
 
 **代表作品**:
 
-![The Weeping Woman](https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Pablo_Picasso%2C_1937%2C_The_Weeping_Woman%2C_oil_on_canvas%2C_60_x_49_cm%2C_Tate_Modern%2C_London.jpg/800px-Pablo_Picasso%2C_1937%2C_The_Weeping_Woman%2C_oil_on_canvas%2C_60_x_49_cm%2C_Tate_Modern%2C_London.jpg)
-*《哭泣的女人》(1937) - 超现实主义时期代表作，现藏伦敦泰特现代美术馆*
+```
+🖼️ 《哭泣的女人》(1937)
+📍 伦敦泰特现代美术馆
+📐 60 × 49 cm
+```
 
 - 《舞蹈》(1925)
 - 《哭泣的女人》(1937)
@@ -180,8 +199,12 @@ readingTime: 12
 
 **代表作品**:
 
-![The Massacre in Korea](https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Pablo_Picasso%2C_1951%2C_The_Massacre_in_Korea%2C_oil_on_canvas%2C_110_x_210_cm%2C_Mus%C3%A9e_Picasso%2C_Paris.jpg/800px-Pablo_Picasso%2C_1951%2C_The_Massacre_in_Korea%2C_oil_on_canvas%2C_110_x_210_cm%2C_Mus%C3%A9e_Picasso%2C_Paris.jpg)
-*《朝鲜大屠杀》(1951) - 反战题材作品，现藏巴黎毕加索博物馆*
+```
+🖼️ 《朝鲜大屠杀》(1951)
+📍 巴黎毕加索博物馆
+📐 110 × 210 cm
+🕊️ 反战题材作品
+```
 
 - 《朝鲜大屠杀》(1951)
 - 《阿尔及尔女人》系列 (1955)
@@ -214,8 +237,12 @@ readingTime: 12
 
 ### 作品图片
 
-![Guernica](https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Pablo_Picasso%2C_1937%2C_Guernica%2C_oil_on_canvas%2C_349.3_cm_%C3%97_776.6_cm%2C_Museo_Nacional_Centro_de_Arte_Reina_Sof%C3%ADa.jpg/800px-Pablo_Picasso%2C_1937%2C_Guernica%2C_oil_on_canvas%2C_349.3_cm_%C3%97_776.6_cm%2C_Museo_Nacional_Centro_de_Arte_Reina_Sof%C3%ADa.jpg)
-*《格尔尼卡》(1937) - 20 世纪最有影响力的绘画之一*
+```
+🖼️ 《格尔尼卡》(1937)
+📍 马德里索菲亚王后国家艺术中心博物馆
+📐 349.3 × 776.6 cm（巨幅油画）
+🎨 黑、白、灰三色
+```
 
 ### 画面解读
 
@@ -375,8 +402,6 @@ readingTime: 12
 
 ---
 
-**图片来源**: 维基百科公共领域 / Wikimedia Commons
-
 **参考文献**:
 
 1. 百度百科 - 巴勃罗·毕加索
@@ -384,6 +409,8 @@ readingTime: 12
 3. 知乎 - 历史人物档案——毕加索
 4. 澎湃新闻 - 毕加索的《格尔尼卡》：死亡与几何学
 5. 搜狐 - 一场战争、一位画家、一幅杰作：毕加索的愤怒与战争反思
+
+**作品图片说明**: 各博物馆藏品的详细信息可通过博物馆官网或维基百科查询。
 
 ---
 

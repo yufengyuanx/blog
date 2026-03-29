@@ -16,7 +16,7 @@
 
 功能设计灵感来自**人脑的 REM 睡眠**（快速眼动睡眠）：
 
-![Diagram](./../assets/diagrams/diagram-ccf5cc30.png)
+![人脑 REM 睡眠与 AI Auto-Dream 记忆整理对比图](./../assets/diagrams/diagram-ccf5cc30.png)
 
 | 人脑睡眠 | AI Auto-Dream |
 |---------|--------------|
@@ -33,7 +33,7 @@
 
 随着使用次数增加，AI 智能体的记忆文件会面临以下问题：
 
-![Diagram](./../assets/diagrams/diagram-b623380d.png)
+![AI 记忆膨胀问题示意图：重复记录、文件增长、检索效率下降](./../assets/diagrams/diagram-b623380d.png)
 
 **典型场景：**
 ```
@@ -87,11 +87,11 @@
 
 ### 3.2 完整执行流程图
 
-![Diagram](./../assets/diagrams/diagram-77ad619f.png)
+![Auto-Dream 完整执行流程图：从触发到记忆优化](./../assets/diagrams/diagram-77ad619f.png)
 
 ### 3.3 各阶段详细说明
 
-![Diagram](./../assets/diagrams/diagram-af902529.png)
+![Auto-Dream 各阶段详细说明：加载、去重、标准化、重组](./../assets/diagrams/diagram-af902529.png)
 
 ### 3.4 技术实现（伪代码）
 
@@ -154,7 +154,7 @@ async function autoDream() {
 
 ### 4.1 整理前 vs 整理后
 
-![Diagram](./../assets/diagrams/diagram-dc8cea7e.png)
+![Auto-Dream 整理前后对比：记忆文件行数减少、结构优化](./../assets/diagrams/diagram-dc8cea7e.png)
 
 ### 4.2 整理前示例
 
@@ -252,7 +252,7 @@ async function autoDream() {
 
 Auto-Dream 使用**向量相似度**检测重复：
 
-![Diagram](./../assets/diagrams/diagram-88492fbf.png)
+![语义去重算法流程图：向量化、相似度计算、聚类、保留最佳表述](./../assets/diagrams/diagram-88492fbf.png)
 
 ```javascript
 async function removeSemanticDuplicates(entries, { threshold }) {
@@ -359,7 +359,7 @@ function enforceLineLimit(memory, { maxLines, archiveExcess }) {
 
 Auto-Dream 默认**自动启用**，无需手动配置：
 
-![Diagram](./../assets/diagrams/diagram-ba4a672f.png)
+![Auto-Dream 自动运行机制：触发条件、频率、时间](./../assets/diagrams/diagram-ba4a672f.png)
 
 - **触发条件：** 会话数 ≥ 5
 - **运行频率：** 每 24 小时
@@ -412,7 +412,7 @@ Auto-Dream 默认**自动启用**，无需手动配置：
 
 ### 7.1 记忆分层模型
 
-![Diagram](./../assets/diagrams/diagram-53185456.png)
+![AI 记忆分层模型：短期记忆、长期记忆、归档记忆的层次结构](./../assets/diagrams/diagram-53185456.png)
 
 ### 7.2 选择性遗忘机制
 
@@ -437,7 +437,7 @@ Auto-Dream 默认**自动启用**，无需手动配置：
 
 ### 8.1 当前限制
 
-![Diagram](./../assets/diagrams/diagram-0285ab13.png)
+![Auto-Dream 当前局限性：语言支持、上下文理解、归档检索](./../assets/diagrams/diagram-0285ab13.png)
 
 1. **语言支持：** 主要针对英文优化，中文去重效果待改进
 2. **上下文理解：** 可能误删看似重复但实际重要的细微差别
@@ -455,7 +455,7 @@ Auto-Dream 默认**自动启用**，无需手动配置：
 
 ### 9.1 可能的改进
 
-![Diagram](./../assets/diagrams/diagram-149e5c56.png)
+![Auto-Dream 未来演进方向：智能评分、增量整理、跨会话学习](./../assets/diagrams/diagram-149e5c56.png)
 
 1. **智能重要性评分**
    - 使用模型评估每条记忆的重要性
@@ -499,7 +499,7 @@ Auto-Dream 解决了 AI 智能体长期记忆的三大挑战：
 
 ### 10.3 关键指标
 
-![Diagram](./../assets/diagrams/diagram-4df59a78.png)
+![Auto-Dream 关键指标：压缩率、整理时间、记忆质量评分](./../assets/diagrams/diagram-4df59a78.png)
 
 ---
 

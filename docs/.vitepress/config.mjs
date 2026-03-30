@@ -68,6 +68,8 @@ export default withMermaid(defineConfig({
           text: '📝 最新文章',
           collapsed: false,
           items: [
+            { text: '第 4 期：OpenCLI', link: '/tech/100-skills-04-opencli-tool' },
+            { text: '第 3 期：Capability Evolver', link: '/tech/100-skills-03-capability-evolver' },
             { text: '第 2 期：Summarize', link: '/tech/100-skills-02-summarize' },
             { text: '第 1 期：Skill Vetter', link: '/tech/100-skills-01-skill-vetter' },
           ],

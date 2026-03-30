@@ -20,6 +20,8 @@ description: Java、Python、AI/LLM 等技术学习心得与实战经验
 [查看系列专栏 →](/tech/series/100-skills)
 
 **最新发布：**
+- [第 4 期：OpenCLI - 30+ 平台数据获取神器](/tech/100-skills-04-opencli-tool) `2026-03-30`
+- [第 3 期：Capability Evolver - 让 AI 自主进化能力](/tech/100-skills-03-capability-evolver) `2026-03-29`
 - [第 2 期：Summarize - 全能内容摘要工具](/tech/100-skills-02-summarize) `2026-03-28`
 - [第 1 期：Skill Vetter - 安全审查必备工具](/tech/100-skills-01-skill-vetter) `2026-03-27`
 

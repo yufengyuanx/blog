@@ -410,7 +410,7 @@ jobs:
 
 ## 📚 相关资源
 
-- [mermaid-image-generator 文档](../../skills/mermaid-image-generator/SKILL.md)
+- ~~mermaid-image-generator~~ (已移除，使用 `excalidraw-diagram-generator` 替代)
 - [Mermaid 语法指南](https://mermaid.js.org/syntax/flowchart.html)
 - [VitePress 图片引用](https://vitepress.dev/guide/markdown#images)
 

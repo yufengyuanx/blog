@@ -212,11 +212,11 @@ osascript -e 'tell application "Spotify" to play track "spotify:track:2KHRENHQzT
 **分类覆盖**: 安全审查、总结、能力进化、CLI 工具、游戏、媒体控制
 
 **往期回顾**:
-- #01: [skill-vetter](/blog/docs/tech/100-skills-01-skill-vetter.md) - 安全审查工具
-- #02: [summarize](/blog/docs/tech/100-skills-02-summarize.md) - 内容总结
-- #03: [capability-evolver](/blog/docs/tech/100-skills-03-capability-evolver.md) - 能力进化
-- #04: [opencli-tool](/blog/docs/tech/100-skills-04-opencli-tool.md) - CLI 工具集成
-- #05: [gog](/blog/docs/tech/100-skills-05-gog.md) - 游戏平台
+- #01: [skill-vetter](/tech/100-skills-01-skill-vetter) - 安全审查工具
+- #02: [summarize](/tech/100-skills-02-summarize) - 内容总结
+- #03: [capability-evolver](/tech/100-skills-03-capability-evolver) - 能力进化
+- #04: [opencli-tool](/tech/100-skills-04-opencli-tool) - CLI 工具集成
+- #05: [gog](/tech/100-skills-05-gog) - 游戏平台
 
 ---
 

@@ -229,9 +229,9 @@ python3 rss_digest.py fetch \
 | #07 | 7/100 | 7% |
 
 **往期回顾**：
-- [#06 Spotify](100-skills-06-spotify.md) - 音乐控制
-- [#05 GoG](100-skills-05-gog.md) - 游戏启动器
-- [#04 OpenCLI](100-skills-04-opencli-tool.md) - 多平台数据获取
+- [#06 Spotify](/tech/100-skills-06-spotify) - 音乐控制
+- [#05 GoG](/tech/100-skills-05-gog) - 游戏启动器
+- [#04 OpenCLI](/tech/100-skills-04-opencli-tool) - 多平台数据获取
 
 ---
 

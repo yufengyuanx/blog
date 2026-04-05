@@ -68,6 +68,12 @@ export default withMermaid(defineConfig({
           text: '📝 最新文章',
           collapsed: false,
           items: [
+            { text: '第 10 期：Spec Kit', link: '/tech/100-skills-10-spec-kit' },
+            { text: '第 9 期：Text-to-Image-Search', link: '/tech/100-skills-09-text-to-image-search' },
+            { text: '第 8 期：Agent Browser', link: '/tech/100-skills-08-agent-browser' },
+            { text: '第 7 期：RSS Digest', link: '/tech/100-skills-07-rss-digest' },
+            { text: '第 6 期：Spotify', link: '/tech/100-skills-06-spotify' },
+            { text: '第 5 期：GOG', link: '/tech/100-skills-05-gog' },
             { text: '第 4 期：OpenCLI', link: '/tech/100-skills-04-opencli-tool' },
             { text: '第 3 期：Capability Evolver', link: '/tech/100-skills-03-capability-evolver' },
             { text: '第 2 期：Summarize', link: '/tech/100-skills-02-summarize' },

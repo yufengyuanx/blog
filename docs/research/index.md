@@ -15,6 +15,7 @@ description: 深度技术调研与架构设计文档
 
 | 标题 | 发布日期 | 标签 |
 |------|----------|------|
+| [GitHub Spec Kit 技术分析：规范驱动 AI 开发](/research/spec-kit-sdd-analysis) | 2026-04-05 | `AI Agent` `规范驱动` `开发方法论` `SDD` |
 | [Claude Code Auto-Dream](/research/claude-code-auto-dream) | 2026-03-27 | `AI` `自动化` `记忆管理` |
 | [OpenClaw 多智能体协作系统技术调研](/research/openclaw-multi-agent-collaboration) | 2026-03-27 | `AI` `Agent` `架构` |
 

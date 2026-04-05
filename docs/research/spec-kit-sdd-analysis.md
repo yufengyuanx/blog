@@ -1,8 +1,13 @@
+---
+title: GitHub Spec Kit 技术分析：规范驱动 AI 开发的未来
+date: 2026-04-05
+tags: [AI Agent, Spec-Driven Development, GitHub, 开发方法论, SDD]
+description: 深入分析 GitHub Spec Kit 工具包，了解规范驱动开发 (SDD) 如何替代 vibe coding，让 AI 按规范生成高质量代码。
+---
+
 # GitHub Spec Kit 技术分析：规范驱动 AI 开发的未来
 
-> **发布日期**: 2026-04-05  
-> **系列**: 100 个 AI Skills 深度解析 #10  
-> **标签**: AI Agent, Spec-Driven Development, GitHub, 开发方法论
+> **技术调研** | 2026-04-05
 
 ---
 

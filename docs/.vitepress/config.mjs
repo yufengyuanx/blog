@@ -68,7 +68,6 @@ export default withMermaid(defineConfig({
           text: '📝 最新文章',
           collapsed: false,
           items: [
-            { text: '第 10 期：Spec Kit', link: '/tech/100-skills-10-spec-kit' },
             { text: '第 9 期：Text-to-Image-Search', link: '/tech/100-skills-09-text-to-image-search' },
             { text: '第 8 期：Agent Browser', link: '/tech/100-skills-08-agent-browser' },
             { text: '第 7 期：RSS Digest', link: '/tech/100-skills-07-rss-digest' },
@@ -86,6 +85,7 @@ export default withMermaid(defineConfig({
           text: '技术调研',
           items: [
             { text: '📋 全部文章', link: '/research/' },
+            { text: 'GitHub Spec Kit 分析', link: '/research/spec-kit-sdd-analysis' },
             { text: 'Claude Code Auto-Dream', link: '/research/claude-code-auto-dream' },
             { text: 'OpenClaw 多智能体协作', link: '/research/openclaw-multi-agent-collaboration' },
           ],

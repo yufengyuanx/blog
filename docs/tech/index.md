@@ -20,10 +20,10 @@ description: Java、Python、AI/LLM 等技术学习心得与实战经验
 [查看系列专栏 →](/tech/series/100-skills)
 
 **最新发布：**
-- [第 4 期：OpenCLI - 30+ 平台数据获取神器](/tech/100-skills-04-opencli-tool) `2026-03-30`
-- [第 3 期：Capability Evolver - 让 AI 自主进化能力](/tech/100-skills-03-capability-evolver) `2026-03-29`
-- [第 2 期：Summarize - 全能内容摘要工具](/tech/100-skills-02-summarize) `2026-03-28`
-- [第 1 期：Skill Vetter - 安全审查必备工具](/tech/100-skills-01-skill-vetter) `2026-03-27`
+- [第 10 期：Find Skills - 技能发现与安装助手](/tech/100-skills-10-find-skills) `2026-04-07`
+- [第 9 期：Text-to-Image-Search - 智能图片搜索神器](/tech/100-skills-09-text-to-image-search) `2026-04-04`
+- [第 8 期：Agent Browser - 无头浏览器自动化神器](/tech/100-skills-08-agent-browser) `2026-04-03`
+- [第 7 期：RSS Feed Digest - 自动聚合订阅源](/tech/100-skills-07-rss-digest) `2026-04-02`
 
 </div>
 
@@ -62,6 +62,14 @@ Spring、并发编程、性能优化、JVM 调优等 Java 相关技术心得。
 
 | 标题 | 分类 | 发布日期 |
 |------|------|----------|
+| [100 个 Skills 第 10 期：Find Skills](/tech/100-skills-10-find-skills) | OpenClaw | 2026-04-07 |
+| [100 个 Skills 第 9 期：Text-to-Image-Search](/tech/100-skills-09-text-to-image-search) | OpenClaw | 2026-04-04 |
+| [100 个 Skills 第 8 期：Agent Browser](/tech/100-skills-08-agent-browser) | OpenClaw | 2026-04-03 |
+| [100 个 Skills 第 7 期：RSS Feed Digest](/tech/100-skills-07-rss-digest) | OpenClaw | 2026-04-02 |
+| [100 个 Skills 第 6 期：Spotify](/tech/100-skills-06-spotify) | OpenClaw | 2026-04-01 |
+| [100 个 Skills 第 5 期：Gog](/tech/100-skills-05-gog) | OpenClaw | 2026-03-31 |
+| [100 个 Skills 第 4 期：OpenCLI](/tech/100-skills-04-opencli-tool) | OpenClaw | 2026-03-30 |
+| [100 个 Skills 第 3 期：Capability Evolver](/tech/100-skills-03-capability-evolver) | OpenClaw | 2026-03-29 |
 | [100 个 Skills 第 2 期：Summarize](/tech/100-skills-02-summarize) | OpenClaw | 2026-03-28 |
 | [100 个 Skills 第 1 期：Skill Vetter](/tech/100-skills-01-skill-vetter) | OpenClaw | 2026-03-27 |
 
@@ -73,7 +81,7 @@ Spring、并发编程、性能优化、JVM 调优等 Java 相关技术心得。
 
 <div class="tags-cloud">
 
-`OpenClaw` `AI` `LLM` `Java` `Python` `效率工具` `安全` `摘要`
+`OpenClaw` `AI` `LLM` `Java` `Python` `效率工具` `安全` `摘要` `技能管理` `图片搜索` `浏览器自动化`
 
 </div>
 

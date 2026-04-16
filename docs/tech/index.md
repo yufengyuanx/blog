@@ -20,10 +20,10 @@ description: Java、Python、AI/LLM 等技术学习心得与实战经验
 [查看系列专栏 →](/tech/series/100-skills)
 
 **最新发布：**
+- [第 14 期：weather - 零配置天气查询工具](/tech/100-skills-14-weather) `2026-04-16`
 - [第 10 期：Find Skills - 技能发现与安装助手](/tech/100-skills-10-find-skills) `2026-04-07`
 - [第 9 期：Text-to-Image-Search - 智能图片搜索神器](/tech/100-skills-09-text-to-image-search) `2026-04-04`
 - [第 8 期：Agent Browser - 无头浏览器自动化神器](/tech/100-skills-08-agent-browser) `2026-04-03`
-- [第 7 期：RSS Feed Digest - 自动聚合订阅源](/tech/100-skills-07-rss-digest) `2026-04-02`
 
 </div>
 
@@ -62,8 +62,8 @@ Spring、并发编程、性能优化、JVM 调优等 Java 相关技术心得。
 
 | 标题 | 分类 | 发布日期 |
 |------|------|----------|
+| [100 个 Skills 第 14 期：weather](/tech/100-skills-14-weather) | OpenClaw | 2026-04-16 |
 | [100 个 Skills 第 10 期：Find Skills](/tech/100-skills-10-find-skills) | OpenClaw | 2026-04-07 |
-| [100 个 Skills 第 9 期：Text-to-Image-Search](/tech/100-skills-09-text-to-image-search) | OpenClaw | 2026-04-04 |
 | [100 个 Skills 第 8 期：Agent Browser](/tech/100-skills-08-agent-browser) | OpenClaw | 2026-04-03 |
 | [100 个 Skills 第 7 期：RSS Feed Digest](/tech/100-skills-07-rss-digest) | OpenClaw | 2026-04-02 |
 | [100 个 Skills 第 6 期：Spotify](/tech/100-skills-06-spotify) | OpenClaw | 2026-04-01 |

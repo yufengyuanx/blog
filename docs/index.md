@@ -2,176 +2,80 @@
 layout: home
 hero:
   name: "Frank's Blog"
-  text: "技术学习笔记与生活记录"
-  tagline: 保持好奇，持续学习
+  text: "AI 工程、技能工作流与技术调研"
+  tagline: 用博客沉淀可复用的方法，而不是只堆零散笔记
   actions:
     - theme: brand
-      text: 开始阅读 →
-      link: /tech/
-    - theme: alt
-      text: 关于我
-      link: /about
-    - theme: alt
-      text: 100 个 Skills
+      text: 看 Skills 系列
       link: /tech/series/100-skills
+    - theme: alt
+      text: 看 Research 调研
+      link: /research/
+    - theme: alt
+      text: 浏览 Notes
+      link: /tech/
 
 features:
   - icon: 🎯
-    title: 100 个 Skills
-    details: 每天介绍一个热门 OpenClaw skill，帮助你发现和了解最有价值的工具
+    title: Skills
+    details: 持续更新的 100 Skills 系列，围绕 OpenClaw / workflow / agent 能力做结构化整理。
     link: /tech/series/100-skills
-  - icon: 💻
-    title: 技术笔记
-    details: Java、Python、AI/LLM 等技术学习心得与实战经验
-    link: /tech/
   - icon: 🔬
-    title: 技术调研
-    details: 深度技术调研与架构设计文档
+    title: Research
+    details: 面向长期复用的技术调研、架构分析和方法论文章。
     link: /research/
+  - icon: 🧠
+    title: Notes
+    details: Java、Python、AI/LLM 与自动化相关的实践笔记与经验总结。
+    link: /tech/
 ---
 
-## 📰 最新文章
+## 这个博客主要写什么
 
-<div class="latest-posts">
+这里不是一个“什么都写一点”的混合博客，而是三条清晰主线：
 
-### 🆕 最新发布
-
-- **[100 个 Skills 第 2 期：Summarize - 全能内容摘要工具](/tech/100-skills-02-summarize)** `2026-03-28` `OpenClaw` `效率工具`  
-  介绍 ClawHub 下载量 Top 1 (215k+) 的摘要工具，支持网页、PDF、图片、音频、YouTube 一键总结。
-
-- **[100 个 Skills 第 1 期：Skill Vetter - 安全审查必备工具](/tech/100-skills-01-skill-vetter)** `2026-03-27` `OpenClaw` `安全`  
-  介绍 ClawHub 下载量 Top 4 的安全审查工具，157k+ 下载，帮你避免安装恶意 skill。
-
-</div>
-
----
-
-## 📚 系列专栏
-
-<div class="series-section">
-
-### 🎯 100 个 Skills
-
-每天介绍一个热门 OpenClaw skill，帮助你发现和了解最有价值的工具。
-
-[查看系列专栏 →](/tech/series/100-skills)
-
-</div>
+1. **Skills**：持续更新的系列内容，强调工具发现、能力拆解、工作流接入。
+2. **Research**：值得长期引用的调研、框架分析、AI engineering / workflow 方法论。
+3. **Notes**：日常技术实践、总结、踩坑记录。
 
 ---
 
-## 🗂️ 浏览分类
+## 现在最值得看的入口
 
-<div class="categories-grid">
+### 🎯 100 Skills 系列
+如果你想快速了解 OpenClaw / agent 生态里有哪些实用能力，从这里开始：
 
-| 分类 | 描述 | 文章数 |
-|------|------|------|
-| 💻 技术笔记 | Java、Python、AI/LLM 等技术学习心得 | 2 篇 |
-| 🔬 技术调研 | 深度技术调研与架构设计 | 1 篇 |
+- [100 个 Skills 系列专栏](/tech/series/100-skills)
+- 最近更新到 **第 16 期**
 
-</div>
+### 🔬 Research 调研
+如果你更关心架构、方法论、AI 工程实践：
+
+- [技术调研首页](/research/)
+- 推荐阅读：
+  - [GitHub Spec Kit 技术分析](/research/spec-kit-sdd-analysis)
+  - [OpenClaw 多智能体协作系统技术调研](/research/openclaw-multi-agent-collaboration)
+
+### 📝 Notes 技术笔记
+如果你想按主题浏览零散但可复用的经验：
+
+- [技术笔记首页](/tech/)
+- 主题覆盖：Java / Python / AI/LLM
 
 ---
 
-## 🔍 快速搜索
+## 最新更新
 
-使用页面右上角的搜索功能，快速找到你需要的内容。
-
----
-
-## 📬 订阅更新
-
-- [GitHub](https://github.com/yufengyuanx) - 关注我的开源项目
+- [第 16 期：do - Execute a phased implementation plan using subagents.](/tech/100-skills-16-do) `2026-04-17`
+- [第 15 期：cron - Schedule reminders and recurring tasks.](/tech/100-skills-15-cron) `2026-04-16`
+- [第 14 期：weather - 零配置天气查询工具](/tech/100-skills-14-weather) `2026-04-16`
+- [GitHub Spec Kit 技术分析：规范驱动 AI 开发](/research/spec-kit-sdd-analysis) `2026-04-05`
 
 ---
 
-<style>
-.latest-posts {
-  margin: 2rem 0;
-}
+## 浏览方式
 
-.latest-posts ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.latest-posts li {
-  margin: 1.5rem 0;
-  padding: 1rem;
-  border-left: 4px solid var(--vp-c-brand);
-  background: var(--vp-c-bg-soft);
-  border-radius: 0 8px 8px 0;
-}
-
-.latest-posts a {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: var(--vp-c-brand);
-  text-decoration: none;
-}
-
-.latest-posts a:hover {
-  text-decoration: underline;
-}
-
-.latest-posts code {
-  font-size: 0.85rem;
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
-  background: var(--vp-c-bg-alt);
-  margin-left: 0.5rem;
-}
-
-.series-section {
-  margin: 2rem 0;
-  padding: 1.5rem;
-  background: linear-gradient(135deg, var(--vp-c-brand-soft) 0%, var(--vp-c-bg-soft) 100%);
-  border-radius: 12px;
-  border: 1px solid var(--vp-c-brand);
-}
-
-.series-section a {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  background: var(--vp-c-brand);
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: 500;
-}
-
-.series-section a:hover {
-  background: var(--vp-c-brand-dark);
-}
-
-.categories-grid table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1.5rem 0;
-  background: transparent;
-}
-
-.categories-grid th,
-.categories-grid td {
-  padding: 0.75rem 1rem;
-  border: none;
-  border-bottom: 1px solid var(--vp-c-divider-light);
-  text-align: left;
-  background: transparent;
-}
-
-.categories-grid th {
-  font-weight: 600;
-  color: var(--vp-c-text-1);
-  background: transparent;
-}
-
-.categories-grid tr:last-child td {
-  border-bottom: none;
-}
-
-.categories-grid tr:hover td {
-  background: var(--vp-c-bg-soft);
-}
-</style>
+- 想看**系列**：去 [Skills](/tech/series/100-skills)
+- 想看**深度分析**：去 [Research](/research/)
+- 想看**主题笔记**：去 [Notes](/tech/)
+- 想按时间回看：去 [Archive](/archive)

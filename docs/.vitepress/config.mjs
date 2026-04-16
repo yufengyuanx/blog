@@ -4,107 +4,88 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 export default withMermaid(defineConfig({
   lang: 'zh-CN',
   title: "Frank's Blog",
-  description: "技术学习笔记与生活记录",
+  description: "AI 工程、技能工作流与技术调研",
   base: '/blog/',
-  
+
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
-    ['meta', { name: 'description', content: '技术学习笔记与生活记录 - Frank Yuan 的个人博客' }],
+    ['meta', { name: 'description', content: 'Frank Yuan 的博客：Skills、Research、Notes' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'zh-CN' }],
     ['link', { rel: 'sitemap', href: '/blog/sitemap.xml' }],
   ],
-  
+
   themeConfig: {
-    // 顶部导航栏
     nav: [
-      { text: '🏠 首页', link: '/' },
-      { 
-        text: '📝 技术笔记', 
-        link: '/tech/',
-        activeMatch: '/tech/'
-      },
-      { 
-        text: '🔬 技术调研', 
-        link: '/research/',
-        activeMatch: '/research/'
-      },
-      { 
-        text: '🎯 100 个 Skills', 
-        link: '/tech/series/100-skills',
-        activeMatch: '/tech/series/'
-      },
-      { 
-        text: '🗂️ 更多', 
-        items: [
-          { text: '📅 文章归档', link: '/archive' },
-        ]
-      },
-      { text: '👤 关于我', link: '/about' },
+      { text: '首页', link: '/' },
+      { text: 'Skills', link: '/tech/series/100-skills', activeMatch: '/tech/series/' },
+      { text: 'Research', link: '/research/', activeMatch: '/research/' },
+      { text: 'Notes', link: '/tech/', activeMatch: '/tech/' },
+      { text: 'Archive', link: '/archive' },
+      { text: 'About', link: '/about' },
     ],
 
-    // 侧边栏配置
     sidebar: {
       '/tech/': [
         {
-          text: '📚 系列专栏',
+          text: 'Skills',
           collapsed: false,
           items: [
-            { text: '🎯 100 个 Skills', link: '/tech/series/100-skills' },
+            { text: '100 个 Skills 系列', link: '/tech/series/100-skills' },
+            { text: '第 16 期：do', link: '/tech/100-skills-16-do' },
+            { text: '第 15 期：cron', link: '/tech/100-skills-15-cron' },
+            { text: '第 14 期：weather', link: '/tech/100-skills-14-weather' },
           ],
         },
         {
-          text: '💻 技术分类',
-          collapsed: true,
-          items: [
-            { text: '📋 全部文章', link: '/tech/' },
-            { text: '☕ Java 心得', link: '/tech/categories/java' },
-            { text: '🐍 Python 技巧', link: '/tech/categories/python' },
-            { text: '🤖 AI/LLM 探索', link: '/tech/categories/ai-llm' },
-          ],
-        },
-        {
-          text: '📝 最新文章',
+          text: 'Notes',
           collapsed: false,
           items: [
-            { text: '第 9 期：Text-to-Image-Search', link: '/tech/100-skills-09-text-to-image-search' },
-            { text: '第 8 期：Agent Browser', link: '/tech/100-skills-08-agent-browser' },
-            { text: '第 7 期：RSS Digest', link: '/tech/100-skills-07-rss-digest' },
-            { text: '第 6 期：Spotify', link: '/tech/100-skills-06-spotify' },
-            { text: '第 5 期：GOG', link: '/tech/100-skills-05-gog' },
-            { text: '第 4 期：OpenCLI', link: '/tech/100-skills-04-opencli-tool' },
-            { text: '第 3 期：Capability Evolver', link: '/tech/100-skills-03-capability-evolver' },
-            { text: '第 2 期：Summarize', link: '/tech/100-skills-02-summarize' },
-            { text: '第 1 期：Skill Vetter', link: '/tech/100-skills-01-skill-vetter' },
+            { text: 'Notes 首页', link: '/tech/' },
+            { text: 'AI/LLM', link: '/tech/categories/ai-llm' },
+            { text: 'Java', link: '/tech/categories/java' },
+            { text: 'Python', link: '/tech/categories/python' },
+            { text: 'AI/LLM 笔记', link: '/tech/ai-llm' },
+            { text: 'Java 笔记', link: '/tech/java-notes' },
+            { text: 'Python 技巧', link: '/tech/python-tips' },
           ],
         },
       ],
       '/research/': [
         {
-          text: '技术调研',
+          text: 'Research',
+          collapsed: false,
           items: [
-            { text: '📋 全部文章', link: '/research/' },
-            { text: 'GitHub Spec Kit 分析', link: '/research/spec-kit-sdd-analysis' },
-            { text: 'Claude Code Auto-Dream', link: '/research/claude-code-auto-dream' },
+            { text: 'Research 首页', link: '/research/' },
+            { text: 'GitHub Spec Kit 技术分析', link: '/research/spec-kit-sdd-analysis' },
             { text: 'OpenClaw 多智能体协作', link: '/research/openclaw-multi-agent-collaboration' },
+            { text: 'Claude Code Auto-Dream', link: '/research/claude-code-auto-dream' },
+          ],
+        },
+      ],
+      '/life/': [
+        {
+          text: 'Life',
+          collapsed: false,
+          items: [
+            { text: '生活首页', link: '/life/' },
+            { text: '每日随记', link: '/life/daily' },
+            { text: '阅读', link: '/life/reading' },
           ],
         },
       ],
     },
 
-    // 社交链接
     socialLinks: [
       { icon: 'github', link: 'https://github.com/yufengyuanx' },
     ],
 
-    // 页脚
     footer: {
       message: 'Built with VitePress',
       copyright: 'Copyright © 2026 Frank Yuan',
     },
 
-    // 搜索配置
     search: {
       provider: 'local',
       options: {
@@ -129,43 +110,36 @@ export default withMermaid(defineConfig({
       }
     },
 
-    // 文档编辑链接
     editLink: {
       pattern: 'https://github.com/yufengyuanx/blog/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页面'
     },
 
-    // 上一篇/下一篇
     docFooter: {
       prev: '上一篇',
       next: '下一篇'
     },
 
-    // 大纲
     outline: {
       label: '本页目录',
       level: [2, 3]
     },
 
-    // 返回顶部
     returnToTop: {
       label: '返回顶部'
     },
 
-    // 深色模式
     darkModeSwitchLabel: '外观',
     sidebarMenuLabel: '菜单',
   },
-  
-  // Markdown 配置
+
   markdown: {
     lineNumbers: true,
     image: {
       lazyLoading: true,
     },
   },
-  
-  // Mermaid 配置
+
   mermaid: {
     theme: {
       light: 'default',

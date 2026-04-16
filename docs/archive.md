@@ -1,89 +1,49 @@
 ---
-title: 文章归档
-description: 按时间归档的所有文章
+title: Archive
+description: 按栏目和时间浏览博客内容
 ---
 
-# 📅 文章归档
+# 📚 Archive
 
-按时间顺序浏览所有文章。
+如果你不确定从哪里开始，可以按下面三种方式浏览：
+
+1. **按栏目**：Skills / Research / Notes
+2. **按时间**：最近更新
+3. **按主题**：Java / Python / AI/LLM
 
 ---
 
-## 2026 年
+## 按栏目浏览
 
-<div class="archive-list">
+### Skills
+- [100 个 Skills 系列专栏](/tech/series/100-skills)
+- 最近更新到 **第 16 期**
 
-### 3 月
+### Research
+- [Research 首页](/research/)
+- 适合看深度分析、架构和方法论
 
-| 日期 | 标题 | 分类 |
+### Notes
+- [Notes 首页](/tech/)
+- 适合看日常实践总结
+
+---
+
+## 最近更新
+
+| 日期 | 标题 | 栏目 |
 |------|------|------|
-| 2026-03-28 | [100 个 Skills 第 2 期：Summarize](/tech/100-skills-02-summarize) | OpenClaw |
-| 2026-03-27 | [100 个 Skills 第 1 期：Skill Vetter](/tech/100-skills-01-skill-vetter) | OpenClaw |
-| 2026-03-27 | [OpenClaw 多智能体协作系统技术调研](/research/openclaw-multi-agent-collaboration) | 技术调研 |
-
-</div>
-
----
-
-## 统计信息
-
-<div class="stats-grid">
-
-| 统计项 | 数量 |
-|--------|------|
-| 总文章数 | 3 篇 |
-| 技术笔记 | 2 篇 |
-| 技术调研 | 1 篇 |
-| 生活随笔 | 0 篇 |
-
-</div>
+| 2026-04-17 | [100 个 Skills 第 16 期：do](/tech/100-skills-16-do) | Skills |
+| 2026-04-16 | [100 个 Skills 第 15 期：cron](/tech/100-skills-15-cron) | Skills |
+| 2026-04-16 | [100 个 Skills 第 14 期：weather](/tech/100-skills-14-weather) | Skills |
+| 2026-04-10 | [100 个 Skills 第 13 期：xiaohongshu](/tech/100-skills-13-xiaohongshu) | Skills |
+| 2026-04-05 | [GitHub Spec Kit 技术分析：规范驱动 AI 开发](/research/spec-kit-sdd-analysis) | Research |
+| 2026-03-27 | [OpenClaw 多智能体协作系统技术调研](/research/openclaw-multi-agent-collaboration) | Research |
 
 ---
 
-<style>
-.archive-list table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1rem 0;
-}
+## 按主题浏览
 
-.archive-list th,
-.archive-list td {
-  padding: 0.75rem;
-  border: 1px solid var(--vp-c-divider);
-  text-align: left;
-}
-
-.archive-list th {
-  background: var(--vp-c-bg-soft);
-  font-weight: 600;
-}
-
-.archive-list tr:hover {
-  background: var(--vp-c-bg-soft);
-}
-
-.archive-list h3 {
-  margin: 1.5rem 0 0.5rem;
-  color: var(--vp-c-brand);
-}
-
-.stats-grid table {
-  width: 100%;
-  max-width: 400px;
-  border-collapse: collapse;
-  margin: 1rem 0;
-}
-
-.stats-grid th,
-.stats-grid td {
-  padding: 0.75rem;
-  border: 1px solid var(--vp-c-divider);
-  text-align: left;
-}
-
-.stats-grid th {
-  background: var(--vp-c-bg-soft);
-  width: 60%;
-}
-</style>
+- [AI/LLM](/tech/categories/ai-llm)
+- [Java](/tech/categories/java)
+- [Python](/tech/categories/python)

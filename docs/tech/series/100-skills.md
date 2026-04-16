@@ -1,221 +1,80 @@
 ---
 title: 100 个 Skills 系列专栏
-description: 每天介绍一个热门 OpenClaw skill，帮助你发现和了解最有价值的工具
+description: 持续更新的 OpenClaw Skills 系列文章
 ---
 
-# 🎯 100 个 Skills 系列专栏
+# 🎯 100 个 Skills 系列
 
-> **每天一个 skill，发现 OpenClaw 生态中的宝藏工具**
-
-本系列每天介绍一个 ClawHub 上的热门 skill，包含详细的功能介绍、安装指南、使用场景和真实评价。
-
----
-
-## 📚 系列说明
-
-- **更新频率**：每天早上 9 点更新
-- **选择标准**：按下载量、Stars、用户评价综合排序
-- **内容结构**：基本信息、功能介绍、安装指南、使用场景、示例、用户评价、优缺点
+> 持续整理 OpenClaw / Agent 工作流中值得长期使用的 skill。重点不是“堆工具”，而是理解它们在真实工作流中的位置。
 
 ---
 
-## 📖 文章列表
+## 这个系列写什么
 
-<div class="skills-series-list">
+这个系列重点回答三个问题：
 
-### 2026 年 4 月
+1. **这个 skill 是干什么的？**
+2. **它适合接进什么工作流？**
+3. **它是否值得长期使用？**
 
+所以每一期都尽量围绕：
+- 功能定位
+- 使用场景
+- 接入建议
+- 风险与边界
+
+而不是只做简单的功能罗列。
+
+---
+
+## 最新发布
+
+<!-- AUTO:skills-latest:start -->
 | 期数 | 标题 | 发布日期 | 标签 |
 |------|------|----------|------|
+| **第 16 期** | [do - Execute a phased implementation plan using subagents.](/tech/100-skills-16-do) | 2026-04-17 | `自动化` `OpenClaw` `do` |
 | **第 15 期** | [cron - Schedule reminders and recurring tasks.](/tech/100-skills-15-cron) | 2026-04-16 | `自动化` `OpenClaw` `cron` |
-| **第 16 期** | [do - Execute a phased implementation plan using subagents. Use when asked to execute, run, or carry out a plan — especially one created by make-plan.](/tech/100-skills-16-do) | 2026-04-16 | `自动化` `OpenClaw` `do` |
 | **第 14 期** | [weather - 零配置天气查询工具](/tech/100-skills-14-weather) | 2026-04-16 | `天气` `效率工具` `零配置` `自动化` |
 | **第 13 期** | [xiaohongshu - 小红书内容工具](/tech/100-skills-13-xiaohongshu) | 2026-04-10 | `社交媒体` `内容工具` `小红书` `热点跟踪` |
+| **第 12 期** | [Excalidraw Diagram Generator - 自然语言生成图表神器](/tech/100-skills-12-excalidraw-diagram-generator) | 2026-04-09 | `可视化` `图表` `Excalidraw` `流程图` |
 | **第 11 期** | [Notion - 知识库与工作空间集成](/tech/100-skills-11-notion) | 2026-04-08 | `生产力` `知识库` `Notion` `协作` |
 | **第 10 期** | [Find Skills - 技能发现与安装助手](/tech/100-skills-10-find-skills) | 2026-04-07 | `技能管理` `发现工具` `生态` |
 | **第 9 期** | [Text-to-Image-Search - 智能图片搜索神器](/tech/100-skills-09-text-to-image-search) | 2026-04-04 | `图片搜索` `多引擎` `智能排序` |
 | **第 8 期** | [Agent Browser - 无头浏览器自动化神器](/tech/100-skills-08-agent-browser) | 2026-04-03 | `浏览器自动化` `Web 测试` `数据抓取` |
 | **第 7 期** | [RSS Feed Digest - 自动聚合订阅源](/tech/100-skills-07-rss-digest) | 2026-04-02 | `RSS` `自动化` `新闻聚合` |
 | **第 6 期** | [Spotify - macOS 音乐控制](/tech/100-skills-06-spotify) | 2026-04-01 | `媒体控制` `macOS` `音乐` |
-
----
-
-### 2026 年 3 月
-
-| 期数 | 标题 | 发布日期 | 标签 |
-|------|------|----------|------|
 | **第 5 期** | [Gog - Google Workspace CLI](/tech/100-skills-05-gog) | 2026-03-31 | `Google` `生产力` `自动化` |
 | **第 4 期** | [OpenCLI - 30+ 平台数据获取神器](/tech/100-skills-04-opencli-tool) | 2026-03-30 | `数据获取` `自动化` `多平台` |
 | **第 3 期** | [Capability Evolver - 让 AI 自主进化能力](/tech/100-skills-03-capability-evolver) | 2026-03-29 | `自动化` `能力进化` `AI` |
 | **第 2 期** | [Summarize - 全能内容摘要工具](/tech/100-skills-02-summarize) | 2026-03-28 | `效率` `摘要` `多模态` |
 | **第 1 期** | [Skill Vetter - 安全审查必备工具](/tech/100-skills-01-skill-vetter) | 2026-03-27 | `安全` `审查` `必备` |
-
-</div>
-
----
-
-## 🏆 热门推荐
-
-<div class="featured-skills">
-
-### 🔥 本期推荐：cron
-
-**cron - Schedule reminders and recurring tasks.**，cron - Schedule reminders and recurring tasks.。
-
-- ✅ 零配置：无需 API Key，几乎开箱即用
-- ✅ 一行查询：适合 shell、快捷指令、daily briefing
-- ✅ 完整预报：支持直接查看天气趋势
-- ✅ JSON 输出：适合自动化和 agent 工作流
-- ✅ 风险低：轻量、透明、无敏感权限
-
-[阅读详细介绍 →](/tech/100-skills-15-cron)
+<!-- AUTO:skills-latest:end -->
 
 ---
 
-### 🛡️ 安全必备：Skill Vetter
+## 当前统计
 
-**安装任何 skill 前必用** 的安全审查工具！
-
-- ✅ 危险信号检测
-- ✅ 权限范围分析
-- ✅ 代码行为审查
-
-[阅读详细介绍 →](/tech/100-skills-01-skill-vetter)
-
-</div>
+<!-- AUTO:skills-stats:start -->
+- **已发布**：16 期
+- **当前进度**：16 / 100
+- **最新一期**：[第 16 期：do](/tech/100-skills-16-do)
+<!-- AUTO:skills-stats:end -->
 
 ---
 
-## 📊 统计信息
+## 适合谁看
 
-<div class="stats-grid">
+如果你：
+- 正在搭建自己的 agent 工作流
+- 想快速筛选哪些 skill 值得接入系统
+- 想看一个工具除了“能不能用”之外，还“适不适合长期维护”
 
-| 统计项 | 数值 |
-|--------|------|
-| 已发布期数 | 15 期 |
-| 覆盖技能 | 15 个 |
-| 系列进度 | 15% |
-| 平均评分 | ⭐⭐⭐⭐⭐ |
-
-</div>
+这个系列会比单纯的功能介绍更有用。
 
 ---
 
-## 🔔 订阅更新
+## 相关入口
 
-- 每天早上 9 点自动发布新一期
-- 关注 [GitHub](https://github.com/yufengyuanx/blog) 获取更新通知
-- RSS 订阅即将上线
-
----
-
-## 💡 投稿建议
-
-如果你有想推荐的 skill，欢迎通过以下方式告诉我：
-
-- [GitHub Issues](https://github.com/yufengyuanx/blog/issues)
-- 微信直接留言
-
----
-
-<style>
-.skills-series-list table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1.5rem 0;
-}
-
-.skills-series-list th,
-.skills-series-list td {
-  padding: 1rem;
-  border: 1px solid var(--vp-c-divider);
-  text-align: left;
-}
-
-.skills-series-list th {
-  background: var(--vp-c-bg-soft);
-  font-weight: 600;
-}
-
-.skills-series-list tr:hover {
-  background: var(--vp-c-bg-soft);
-}
-
-.skills-series-list code {
-  font-size: 0.85rem;
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
-  background: var(--vp-c-bg-alt);
-  margin-left: 0.3rem;
-}
-
-.featured-skills {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-
-.featured-skills > div {
-  padding: 1.5rem;
-  background: var(--vp-c-bg-soft);
-  border-radius: 12px;
-  border: 1px solid var(--vp-c-divider);
-}
-
-.featured-skills h3 {
-  margin-top: 0;
-  color: var(--vp-c-brand);
-}
-
-.featured-skills ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.featured-skills li {
-  margin: 0.5rem 0;
-  padding-left: 1.5rem;
-  position: relative;
-}
-
-.featured-skills li:before {
-  content: "✅";
-  position: absolute;
-  left: 0;
-}
-
-.featured-skills a {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  background: var(--vp-c-brand);
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: 500;
-}
-
-.featured-skills a:hover {
-  background: var(--vp-c-brand-dark);
-}
-
-.stats-grid table {
-  width: 100%;
-  max-width: 400px;
-  border-collapse: collapse;
-  margin: 1rem 0;
-}
-
-.stats-grid th,
-.stats-grid td {
-  padding: 0.75rem;
-  border: 1px solid var(--vp-c-divider);
-  text-align: left;
-}
-
-.stats-grid th {
-  background: var(--vp-c-bg-soft);
-  width: 60%;
-}
-</style>
+- [Skills / Notes 总入口](/tech/)
+- [Research 调研](/research/)
+- [Archive](/archive)

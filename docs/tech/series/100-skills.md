@@ -32,22 +32,22 @@ description: 持续更新的 OpenClaw Skills 系列文章
 <!-- AUTO:skills-latest:start -->
 | 期数 | 标题 | 发布日期 | 标签 |
 |------|------|----------|------|
-| **第 16 期** | [do - Execute a phased implementation plan using subagents.](/tech/100-skills-16-do) | 2026-04-17 | `自动化` `OpenClaw` `do` |
+| **第 16 期** | [do - Execute a phased implementation plan using subagents. Use when asked to execute, run, or carry out a plan — especially one created by make-plan.](/tech/100-skills-16-do) | 2026-04-16 | `自动化` `OpenClaw` `do` |
 | **第 15 期** | [cron - Schedule reminders and recurring tasks.](/tech/100-skills-15-cron) | 2026-04-16 | `自动化` `OpenClaw` `cron` |
-| **第 14 期** | [weather - 零配置天气查询工具](/tech/100-skills-14-weather) | 2026-04-16 | `天气` `效率工具` `零配置` `自动化` |
-| **第 13 期** | [xiaohongshu - 小红书内容工具](/tech/100-skills-13-xiaohongshu) | 2026-04-10 | `社交媒体` `内容工具` `小红书` `热点跟踪` |
-| **第 12 期** | [Excalidraw Diagram Generator - 自然语言生成图表神器](/tech/100-skills-12-excalidraw-diagram-generator) | 2026-04-09 | `可视化` `图表` `Excalidraw` `流程图` |
-| **第 11 期** | [Notion - 知识库与工作空间集成](/tech/100-skills-11-notion) | 2026-04-08 | `生产力` `知识库` `Notion` `协作` |
-| **第 10 期** | [Find Skills - 技能发现与安装助手](/tech/100-skills-10-find-skills) | 2026-04-07 | `技能管理` `发现工具` `生态` |
-| **第 9 期** | [Text-to-Image-Search - 智能图片搜索神器](/tech/100-skills-09-text-to-image-search) | 2026-04-04 | `图片搜索` `多引擎` `智能排序` |
-| **第 8 期** | [Agent Browser - 无头浏览器自动化神器](/tech/100-skills-08-agent-browser) | 2026-04-03 | `浏览器自动化` `Web 测试` `数据抓取` |
-| **第 7 期** | [RSS Feed Digest - 自动聚合订阅源](/tech/100-skills-07-rss-digest) | 2026-04-02 | `RSS` `自动化` `新闻聚合` |
-| **第 6 期** | [Spotify - macOS 音乐控制](/tech/100-skills-06-spotify) | 2026-04-01 | `媒体控制` `macOS` `音乐` |
-| **第 5 期** | [Gog - Google Workspace CLI](/tech/100-skills-05-gog) | 2026-03-31 | `Google` `生产力` `自动化` |
-| **第 4 期** | [OpenCLI - 30+ 平台数据获取神器](/tech/100-skills-04-opencli-tool) | 2026-03-30 | `数据获取` `自动化` `多平台` |
-| **第 3 期** | [Capability Evolver - 让 AI 自主进化能力](/tech/100-skills-03-capability-evolver) | 2026-03-29 | `自动化` `能力进化` `AI` |
-| **第 2 期** | [Summarize - 全能内容摘要工具](/tech/100-skills-02-summarize) | 2026-03-28 | `效率` `摘要` `多模态` |
-| **第 1 期** | [Skill Vetter - 安全审查必备工具](/tech/100-skills-01-skill-vetter) | 2026-03-27 | `安全` `审查` `必备` |
+| **第 14 期** | [weather - 零配置天气查询工具](/tech/100-skills-14-weather) | 2026-04-16 | `自动化` `OpenClaw` `weather` |
+| **第 13 期** | [xiaohongshu - 小红书内容工具](/tech/100-skills-13-xiaohongshu) | 2026-04-10 | `自动化` `OpenClaw` `xiaohongshu` |
+| **第 12 期** | [Excalidraw Diagram Generator - 自然语言生成图表神器](/tech/100-skills-12-excalidraw-diagram-generator) | 2026-04-09 | `自动化` `OpenClaw` `excalidraw-diagram-generator` |
+| **第 11 期** | [Notion - 知识库与工作空间集成](/tech/100-skills-11-notion) | 2026-04-08 | `自动化` `OpenClaw` `notion` |
+| **第 10 期** | [Find Skills - 技能发现与安装助手](/tech/100-skills-10-find-skills) | 2026-04-07 | `自动化` `OpenClaw` `find-skills` |
+| **第 9 期** | [Text-to-Image-Search - 智能图片搜索神器](/tech/100-skills-09-text-to-image-search) | 2026-04-04 | `自动化` `OpenClaw` `text-to-image-search` |
+| **第 8 期** | [Agent Browser - 无头浏览器自动化神器](/tech/100-skills-08-agent-browser) | 2026-04-03 | `自动化` `OpenClaw` `agent-browser` |
+| **第 7 期** | [RSS Feed Digest - 自动聚合订阅源](/tech/100-skills-07-rss-digest) | 2026-04-02 | `自动化` `OpenClaw` `rss-digest` |
+| **第 6 期** | [Spotify - macOS 音乐控制](/tech/100-skills-06-spotify) | 2026-04-01 | `自动化` `OpenClaw` `spotify` |
+| **第 5 期** | [Gog - Google Workspace CLI](/tech/100-skills-05-gog) | 2026-03-31 | `自动化` `OpenClaw` `gog` |
+| **第 4 期** | [OpenCLI - 30+ 平台数据获取神器](/tech/100-skills-04-opencli-tool) | 2026-03-30 | `自动化` `OpenClaw` `opencli-tool` |
+| **第 3 期** | [Capability Evolver - 让 AI 自主进化能力](/tech/100-skills-03-capability-evolver) | 2026-03-29 | `自动化` `OpenClaw` `capability-evolver` |
+| **第 2 期** | [Summarize - 全能内容摘要工具](/tech/100-skills-02-summarize) | 2026-03-28 | `自动化` `OpenClaw` `summarize` |
+| **第 1 期** | [Skill Vetter - 安全审查必备工具](/tech/100-skills-01-skill-vetter) | 2026-03-27 | `自动化` `OpenClaw` `skill-vetter` |
 <!-- AUTO:skills-latest:end -->
 
 ---
@@ -57,7 +57,7 @@ description: 持续更新的 OpenClaw Skills 系列文章
 <!-- AUTO:skills-stats:start -->
 - **已发布**：16 期
 - **当前进度**：16 / 100
-- **最新一期**：[第 16 期：do](/tech/100-skills-16-do)
+- **最新一期**：[do - Execute a phased implementation plan using subagents. Use when asked to execute, run, or carry out a plan — especially one created by make-plan.](/tech/100-skills-16-do)
 <!-- AUTO:skills-stats:end -->
 
 ---

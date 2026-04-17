@@ -66,10 +66,10 @@ features:
 
 ## 最新更新
 
-- [第 16 期：do - Execute a phased implementation plan using subagents.](/tech/100-skills-16-do) `2026-04-17`
+- [第 16 期：do - Execute a phased implementation plan using subagents. Use when asked to execute, run, or carry out a plan — especially one created by make-plan.](/tech/100-skills-16-do) `2026-04-16`
 - [第 15 期：cron - Schedule reminders and recurring tasks.](/tech/100-skills-15-cron) `2026-04-16`
 - [第 14 期：weather - 零配置天气查询工具](/tech/100-skills-14-weather) `2026-04-16`
-- [GitHub Spec Kit 技术分析：规范驱动 AI 开发](/research/spec-kit-sdd-analysis) `2026-04-05`
+- [第 13 期：xiaohongshu - 小红书内容工具](/tech/100-skills-13-xiaohongshu) `2026-04-10`
 
 ---
 

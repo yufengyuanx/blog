@@ -32,6 +32,7 @@ description: 持续更新的 OpenClaw Skills 系列文章
 <!-- AUTO:skills-latest:start -->
 | 期数 | 标题 | 发布日期 | 标签 |
 |------|------|----------|------|
+| **第 17 期** | [github - Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries. 国内访问慢时使用 githubproxy.cc 加速。](/tech/100-skills-17-github) | 2026-04-19 | `自动化` `OpenClaw` `github` |
 | **第 16 期** | [do - Execute a phased implementation plan using subagents. Use when asked to execute, run, or carry out a plan — especially one created by make-plan.](/tech/100-skills-16-do) | 2026-04-16 | `自动化` `OpenClaw` `do` |
 | **第 15 期** | [cron - Schedule reminders and recurring tasks.](/tech/100-skills-15-cron) | 2026-04-16 | `自动化` `OpenClaw` `cron` |
 | **第 14 期** | [weather - 零配置天气查询工具](/tech/100-skills-14-weather) | 2026-04-16 | `自动化` `OpenClaw` `weather` |
@@ -55,9 +56,9 @@ description: 持续更新的 OpenClaw Skills 系列文章
 ## 当前统计
 
 <!-- AUTO:skills-stats:start -->
-- **已发布**：16 期
-- **当前进度**：16 / 100
-- **最新一期**：[do - Execute a phased implementation plan using subagents. Use when asked to execute, run, or carry out a plan — especially one created by make-plan.](/tech/100-skills-16-do)
+- **已发布**：17 期
+- **当前进度**：17 / 100
+- **最新一期**：[github - Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries. 国内访问慢时使用 githubproxy.cc 加速。](/tech/100-skills-17-github)
 <!-- AUTO:skills-stats:end -->
 
 ---

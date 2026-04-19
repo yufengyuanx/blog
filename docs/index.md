@@ -66,10 +66,10 @@ features:
 
 ## 最新更新
 
+- [第 17 期：github - Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries. 国内访问慢时使用 githubproxy.cc 加速。](/tech/100-skills-17-github) `2026-04-19`
 - [第 16 期：do - Execute a phased implementation plan using subagents. Use when asked to execute, run, or carry out a plan — especially one created by make-plan.](/tech/100-skills-16-do) `2026-04-16`
 - [第 15 期：cron - Schedule reminders and recurring tasks.](/tech/100-skills-15-cron) `2026-04-16`
 - [第 14 期：weather - 零配置天气查询工具](/tech/100-skills-14-weather) `2026-04-16`
-- [第 13 期：xiaohongshu - 小红书内容工具](/tech/100-skills-13-xiaohongshu) `2026-04-10`
 
 ---
 

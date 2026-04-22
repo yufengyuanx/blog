@@ -32,6 +32,7 @@ description: 持续更新的 OpenClaw Skills 系列文章
 <!-- AUTO:skills-latest:start -->
 | 期数 | 标题 | 发布日期 | 标签 |
 |------|------|----------|------|
+| **第 21 期** | [skill-creator - Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.](/tech/100-skills-21-skill-creator) | 2026-04-22 | `自动化` `OpenClaw` `skill-creator` |
 | **第 20 期** | [self-improvement - Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Claude ('No, that's wrong...', 'Actually...'), (3) User requests a capability that doesn't exist, (4) An external API or tool fails, (5) Claude realizes its knowledge is outdated or incorrect, (6) A better approach is discovered for a recurring task. Also review learnings before major tasks.](/tech/100-skills-20-self-improvement) | 2026-04-21 | `自动化` `OpenClaw` `self-improvement` |
 | **第 19 期** | [mem-search - Search claude-mem's persistent cross-session memory database. Use when user asks "did we already solve this?", "how did we do X last time?", or needs work from previous sessions.](/tech/100-skills-19-mem-search) | 2026-04-20 | `自动化` `OpenClaw` `mem-search` |
 | **第 18 期** | [make-plan - Create a detailed, phased implementation plan with documentation discovery. Use when asked to plan a feature, task, or multi-step implementation — especially before executing with do.](/tech/100-skills-18-make-plan) | 2026-04-19 | `自动化` `OpenClaw` `make-plan` |
@@ -51,7 +52,6 @@ description: 持续更新的 OpenClaw Skills 系列文章
 | **第 4 期** | [OpenCLI - 30+ 平台数据获取神器](/tech/100-skills-04-opencli-tool) | 2026-03-30 | `自动化` `OpenClaw` `opencli-tool` |
 | **第 3 期** | [Capability Evolver - 让 AI 自主进化能力](/tech/100-skills-03-capability-evolver) | 2026-03-29 | `自动化` `OpenClaw` `capability-evolver` |
 | **第 2 期** | [Summarize - 全能内容摘要工具](/tech/100-skills-02-summarize) | 2026-03-28 | `自动化` `OpenClaw` `summarize` |
-| **第 1 期** | [Skill Vetter - 安全审查必备工具](/tech/100-skills-01-skill-vetter) | 2026-03-27 | `自动化` `OpenClaw` `skill-vetter` |
 <!-- AUTO:skills-latest:end -->
 
 ---
@@ -59,9 +59,9 @@ description: 持续更新的 OpenClaw Skills 系列文章
 ## 当前统计
 
 <!-- AUTO:skills-stats:start -->
-- **已发布**：20 期
-- **当前进度**：20 / 100
-- **最新一期**：[self-improvement - Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Claude ('No, that's wrong...', 'Actually...'), (3) User requests a capability that doesn't exist, (4) An external API or tool fails, (5) Claude realizes its knowledge is outdated or incorrect, (6) A better approach is discovered for a recurring task. Also review learnings before major tasks.](/tech/100-skills-20-self-improvement)
+- **已发布**：21 期
+- **当前进度**：21 / 100
+- **最新一期**：[skill-creator - Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.](/tech/100-skills-21-skill-creator)
 <!-- AUTO:skills-stats:end -->
 
 ---

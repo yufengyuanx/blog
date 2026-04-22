@@ -1,0 +1,63 @@
+---
+title: "100 个 Skills 第 21 期：skill-creator - Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets."
+date: 2026-04-22
+description: "Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets."
+tags: [OpenClaw, Skill, 自动化]
+readingTime: 5
+---
+
+# 100 个 Skills 第 21 期：skill-creator - Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.
+
+今天介绍的 skill 是 **skill-creator**。
+
+它的核心定位很直接：**Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.**
+
+## 基本信息
+
+| 项目 | 内容 |
+|------|------|
+| Skill 名称 | skill-creator |
+| 来源目录 | `/Users/frankyuan/.agents/skills/skill-creator` |
+| 风险等级 | 🟢 LOW ~ 🟡 MEDIUM（需结合实际能力判断） |
+
+## 适合解决什么问题
+
+- 提高日常效率
+- 让 agent 更方便调用特定能力
+- 减少重复性操作
+
+## 使用示例
+
+```bash
+scripts/init_skill.py <skill-name> --path <output-directory> [--resources scripts,references,assets] [--examples]
+```
+
+```bash
+scripts/init_skill.py my-skill --path skills/public
+scripts/init_skill.py my-skill --path skills/public --resources scripts,references
+scripts/init_skill.py my-skill --path skills/public --resources scripts --examples
+```
+
+```bash
+scripts/package_skill.py <path/to/skill-folder>
+```
+
+## 我的看法
+
+这个 skill 的价值在于：
+
+1. **定位清晰**：功能边界比较明确
+2. **接入成本低**：从文档示例看，上手难度不高
+3. **适合进入 workflow**：可以作为更大自动化流程中的一个能力模块
+
+## 使用建议
+
+如果你准备把它纳入日常工作流，建议：
+
+- 先手动跑一遍核心示例
+- 再决定是否接进自动化流程
+- 如果涉及外部写操作，先做小范围验证
+
+---
+
+**系列进度**：21/100

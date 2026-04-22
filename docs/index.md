@@ -66,10 +66,10 @@ features:
 
 ## 最新更新
 
+- [第 21 期：skill-creator - Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.](/tech/100-skills-21-skill-creator) `2026-04-22`
 - [第 20 期：self-improvement - Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Claude ('No, that's wrong...', 'Actually...'), (3) User requests a capability that doesn't exist, (4) An external API or tool fails, (5) Claude realizes its knowledge is outdated or incorrect, (6) A better approach is discovered for a recurring task. Also review learnings before major tasks.](/tech/100-skills-20-self-improvement) `2026-04-21`
 - [第 19 期：mem-search - Search claude-mem's persistent cross-session memory database. Use when user asks "did we already solve this?", "how did we do X last time?", or needs work from previous sessions.](/tech/100-skills-19-mem-search) `2026-04-20`
 - [第 18 期：make-plan - Create a detailed, phased implementation plan with documentation discovery. Use when asked to plan a feature, task, or multi-step implementation — especially before executing with do.](/tech/100-skills-18-make-plan) `2026-04-19`
-- [第 17 期：github - Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries. 国内访问慢时使用 githubproxy.cc 加速。](/tech/100-skills-17-github) `2026-04-19`
 
 ---
 

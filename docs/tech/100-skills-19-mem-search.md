@@ -1,9 +1,9 @@
 ---
-title: "100 个 Skills 第 19 期：mem-search - Search claude-mem's persistent cross-session memory database. Use when user asks "did we already solve this?", "how did we do X last time?", or needs work from previous sessions."
-date: 2026-04-20
-description: "Search claude-mem's persistent cross-session memory database. Use when user asks "did we already solve this?", "how did we do X last time?", or needs work from previous sessions."
+title: "100 个 Skills 第 19 期：mem-search"
+description: "Search claude-mem's persistent cross-session memory database"
 tags: [OpenClaw, Skill, 自动化]
 readingTime: 5
+date: 2026-04-20
 ---
 
 # 100 个 Skills 第 19 期：mem-search - Search claude-mem's persistent cross-session memory database. Use when user asks "did we already solve this?", "how did we do X last time?", or needs work from previous sessions.

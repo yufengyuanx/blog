@@ -66,10 +66,10 @@ features:
 
 ## 最新更新
 
+- [第 23 期：tmux - Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.](/tech/100-skills-23-tmux) `2026-04-24`
 - [第 22 期：smart-explore - Token-optimized structural code search using tree-sitter AST parsing. Use instead of reading full files when you need to understand code structure, find functions, or explore a codebase efficiently.](/tech/100-skills-22-smart-explore) `2026-04-23`
 - [第 21 期：skill-creator - Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.](/tech/100-skills-21-skill-creator) `2026-04-22`
 - [第 20 期：self-improvement - Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Claude ('No, that's wrong...', 'Actually...'), (3) User requests a capability that doesn't exist, (4) An external API or tool fails, (5) Claude realizes its knowledge is outdated or incorrect, (6) A better approach is discovered for a recurring task. Also review learnings before major tasks.](/tech/100-skills-20-self-improvement) `2026-04-21`
-- [第 19 期：mem-search - Search claude-mem's persistent cross-session memory database. Use when user asks "did we already solve this?", "how did we do X last time?", or needs work from previous sessions.](/tech/100-skills-19-mem-search) `2026-04-20`
 
 ---
 

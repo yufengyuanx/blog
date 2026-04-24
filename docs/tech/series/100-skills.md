@@ -32,10 +32,11 @@ description: 持续更新的 OpenClaw Skills 系列文章
 <!-- AUTO:skills-latest:start -->
 | 期数 | 标题 | 发布日期 | 标签 |
 |------|------|----------|------|
+| **第 23 期** | [tmux - Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.](/tech/100-skills-23-tmux) | 2026-04-24 | `自动化` `OpenClaw` `tmux` |
 | **第 22 期** | [smart-explore - Token-optimized structural code search using tree-sitter AST parsing. Use instead of reading full files when you need to understand code structure, find functions, or explore a codebase efficiently.](/tech/100-skills-22-smart-explore) | 2026-04-23 | `自动化` `OpenClaw` `smart-explore` |
 | **第 21 期** | [skill-creator - Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.](/tech/100-skills-21-skill-creator) | 2026-04-22 | `自动化` `OpenClaw` `skill-creator` |
 | **第 20 期** | [self-improvement - Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Claude ('No, that's wrong...', 'Actually...'), (3) User requests a capability that doesn't exist, (4) An external API or tool fails, (5) Claude realizes its knowledge is outdated or incorrect, (6) A better approach is discovered for a recurring task. Also review learnings before major tasks.](/tech/100-skills-20-self-improvement) | 2026-04-21 | `自动化` `OpenClaw` `self-improvement` |
-| **第 19 期** | [mem-search - Search claude-mem's persistent cross-session memory database. Use when user asks "did we already solve this?", "how did we do X last time?", or needs work from previous sessions.](/tech/100-skills-19-mem-search) | 2026-04-20 | `自动化` `OpenClaw` `mem-search` |
+| **第 19 期** | [mem-search](/tech/100-skills-19-mem-search) | 2026-04-20 | `自动化` `OpenClaw` `mem-search` |
 | **第 18 期** | [make-plan - Create a detailed, phased implementation plan with documentation discovery. Use when asked to plan a feature, task, or multi-step implementation — especially before executing with do.](/tech/100-skills-18-make-plan) | 2026-04-19 | `自动化` `OpenClaw` `make-plan` |
 | **第 17 期** | [github - Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries. 国内访问慢时使用 githubproxy.cc 加速。](/tech/100-skills-17-github) | 2026-04-19 | `自动化` `OpenClaw` `github` |
 | **第 16 期** | [do - Execute a phased implementation plan using subagents. Use when asked to execute, run, or carry out a plan — especially one created by make-plan.](/tech/100-skills-16-do) | 2026-04-16 | `自动化` `OpenClaw` `do` |
@@ -51,7 +52,6 @@ description: 持续更新的 OpenClaw Skills 系列文章
 | **第 6 期** | [Spotify - macOS 音乐控制](/tech/100-skills-06-spotify) | 2026-04-01 | `自动化` `OpenClaw` `spotify` |
 | **第 5 期** | [Gog - Google Workspace CLI](/tech/100-skills-05-gog) | 2026-03-31 | `自动化` `OpenClaw` `gog` |
 | **第 4 期** | [OpenCLI - 30+ 平台数据获取神器](/tech/100-skills-04-opencli-tool) | 2026-03-30 | `自动化` `OpenClaw` `opencli-tool` |
-| **第 3 期** | [Capability Evolver - 让 AI 自主进化能力](/tech/100-skills-03-capability-evolver) | 2026-03-29 | `自动化` `OpenClaw` `capability-evolver` |
 <!-- AUTO:skills-latest:end -->
 
 ---
@@ -59,9 +59,9 @@ description: 持续更新的 OpenClaw Skills 系列文章
 ## 当前统计
 
 <!-- AUTO:skills-stats:start -->
-- **已发布**：22 期
-- **当前进度**：22 / 100
-- **最新一期**：[smart-explore - Token-optimized structural code search using tree-sitter AST parsing. Use instead of reading full files when you need to understand code structure, find functions, or explore a codebase efficiently.](/tech/100-skills-22-smart-explore)
+- **已发布**：23 期
+- **当前进度**：23 / 100
+- **最新一期**：[tmux - Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.](/tech/100-skills-23-tmux)
 <!-- AUTO:skills-stats:end -->
 
 ---

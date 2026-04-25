@@ -32,6 +32,7 @@ description: 持续更新的 OpenClaw Skills 系列文章
 <!-- AUTO:skills-latest:start -->
 | 期数 | 标题 | 发布日期 | 标签 |
 |------|------|----------|------|
+| **第 24 期** | [obsidian - Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli.](/tech/100-skills-24-obsidian) | 2026-04-25 | `自动化` `OpenClaw` `obsidian` |
 | **第 23 期** | [tmux - Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.](/tech/100-skills-23-tmux) | 2026-04-24 | `自动化` `OpenClaw` `tmux` |
 | **第 22 期** | [smart-explore - Token-optimized structural code search using tree-sitter AST parsing. Use instead of reading full files when you need to understand code structure, find functions, or explore a codebase efficiently.](/tech/100-skills-22-smart-explore) | 2026-04-23 | `自动化` `OpenClaw` `smart-explore` |
 | **第 21 期** | [skill-creator - Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.](/tech/100-skills-21-skill-creator) | 2026-04-22 | `自动化` `OpenClaw` `skill-creator` |
@@ -51,7 +52,6 @@ description: 持续更新的 OpenClaw Skills 系列文章
 | **第 7 期** | [RSS Feed Digest - 自动聚合订阅源](/tech/100-skills-07-rss-digest) | 2026-04-02 | `自动化` `OpenClaw` `rss-digest` |
 | **第 6 期** | [Spotify - macOS 音乐控制](/tech/100-skills-06-spotify) | 2026-04-01 | `自动化` `OpenClaw` `spotify` |
 | **第 5 期** | [Gog - Google Workspace CLI](/tech/100-skills-05-gog) | 2026-03-31 | `自动化` `OpenClaw` `gog` |
-| **第 4 期** | [OpenCLI - 30+ 平台数据获取神器](/tech/100-skills-04-opencli-tool) | 2026-03-30 | `自动化` `OpenClaw` `opencli-tool` |
 <!-- AUTO:skills-latest:end -->
 
 ---
@@ -59,9 +59,9 @@ description: 持续更新的 OpenClaw Skills 系列文章
 ## 当前统计
 
 <!-- AUTO:skills-stats:start -->
-- **已发布**：23 期
-- **当前进度**：23 / 100
-- **最新一期**：[tmux - Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.](/tech/100-skills-23-tmux)
+- **已发布**：24 期
+- **当前进度**：24 / 100
+- **最新一期**：[obsidian - Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli.](/tech/100-skills-24-obsidian)
 <!-- AUTO:skills-stats:end -->
 
 ---

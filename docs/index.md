@@ -66,10 +66,10 @@ features:
 
 ## 最新更新
 
+- [第 25 期：openclaw-skill-vetter - Security vetting protocol before installing any AI agent skill. Red flag detection for credential theft, obfuscated code, exfiltration. Risk classification LOW/MEDIUM/HIGH/EXTREME. Produces structured vetting reports. Never install untrusted skills without running this first.](/tech/100-skills-25-openclaw-skill-vetter) `2026-04-26`
 - [第 24 期：obsidian - Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli.](/tech/100-skills-24-obsidian) `2026-04-25`
 - [第 23 期：tmux - Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.](/tech/100-skills-23-tmux) `2026-04-24`
 - [第 22 期：smart-explore - Token-optimized structural code search using tree-sitter AST parsing. Use instead of reading full files when you need to understand code structure, find functions, or explore a codebase efficiently.](/tech/100-skills-22-smart-explore) `2026-04-23`
-- [第 21 期：skill-creator - Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.](/tech/100-skills-21-skill-creator) `2026-04-22`
 
 ---
 

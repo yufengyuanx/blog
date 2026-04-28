@@ -32,6 +32,7 @@ description: 持续更新的 OpenClaw Skills 系列文章
 <!-- AUTO:skills-latest:start -->
 | 期数 | 标题 | 发布日期 | 标签 |
 |------|------|----------|------|
+| **第 27 期** | [tech-share-research - 技术分享/会议想法记录与后续调研工作流。Use when: (1) 参加技术分享会需要快速记录想法，(2) 听到新工具/技术想后续了解，(3) 需要系统性调研某个技术主题，(4) 整理碎片化技术笔记为结构化知识。](/tech/100-skills-27-tech-share-research) | 2026-04-28 | `自动化` `OpenClaw` `tech-share-research` |
 | **第 26 期** | [reverse-image-search - >](/tech/100-skills-26-reverse-image-search) | 2026-04-27 | `自动化` `OpenClaw` `reverse-image-search` |
 | **第 25 期** | [openclaw-skill-vetter - Security vetting protocol before installing any AI agent skill. Red flag detection for credential theft, obfuscated code, exfiltration. Risk classification LOW/MEDIUM/HIGH/EXTREME. Produces structured vetting reports. Never install untrusted skills without running this first.](/tech/100-skills-25-openclaw-skill-vetter) | 2026-04-26 | `自动化` `OpenClaw` `openclaw-skill-vetter` |
 | **第 24 期** | [obsidian - Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli.](/tech/100-skills-24-obsidian) | 2026-04-25 | `自动化` `OpenClaw` `obsidian` |
@@ -51,7 +52,6 @@ description: 持续更新的 OpenClaw Skills 系列文章
 | **第 10 期** | [Find Skills - 技能发现与安装助手](/tech/100-skills-10-find-skills) | 2026-04-07 | `自动化` `OpenClaw` `find-skills` |
 | **第 9 期** | [Text-to-Image-Search - 智能图片搜索神器](/tech/100-skills-09-text-to-image-search) | 2026-04-04 | `自动化` `OpenClaw` `text-to-image-search` |
 | **第 8 期** | [Agent Browser - 无头浏览器自动化神器](/tech/100-skills-08-agent-browser) | 2026-04-03 | `自动化` `OpenClaw` `agent-browser` |
-| **第 7 期** | [RSS Feed Digest - 自动聚合订阅源](/tech/100-skills-07-rss-digest) | 2026-04-02 | `自动化` `OpenClaw` `rss-digest` |
 <!-- AUTO:skills-latest:end -->
 
 ---
@@ -59,9 +59,9 @@ description: 持续更新的 OpenClaw Skills 系列文章
 ## 当前统计
 
 <!-- AUTO:skills-stats:start -->
-- **已发布**：26 期
-- **当前进度**：26 / 100
-- **最新一期**：[reverse-image-search - >](/tech/100-skills-26-reverse-image-search)
+- **已发布**：27 期
+- **当前进度**：27 / 100
+- **最新一期**：[tech-share-research - 技术分享/会议想法记录与后续调研工作流。Use when: (1) 参加技术分享会需要快速记录想法，(2) 听到新工具/技术想后续了解，(3) 需要系统性调研某个技术主题，(4) 整理碎片化技术笔记为结构化知识。](/tech/100-skills-27-tech-share-research)
 <!-- AUTO:skills-stats:end -->
 
 ---
